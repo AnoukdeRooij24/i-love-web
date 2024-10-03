@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head><meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>I Love Web, Mijn vooruitgang</title>
+        <link rel="" href="">
+   
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1>Mijn vooruitgang </h1>
+
+                <p>In dit document komen alle aantekeningen en aanpassingen te staan die ik gemaakt heb. </p>
+
+            </header>
+
+            <h2> College Webtech, 3-9-2024</h2> 
+            <p>Een persoon die iets wilt zoeken stuurt een HTTP request, vanaf de server komt er een HTTP response.
+                Een document objes model (DOM) is de structuur, het verbind de websites met hun scripts.</p>
+            <P>HTML element. foto erin zetten van mijn getekende uitleg</P>
+
+
+            <h2>Daily checkout, 4-9-2024</h2>
+            <p>ik heb vandaag een breakdown schets gemaakt van mijn visitekaartje. En ik ben begonnen met dit bestand maken.
+
+                studievragen,
+            1. wat is het nut van een breakdown schets?
+            2. waar moet je op letten als je een breakdownschets maakt?
+            3. waar moet je beginnen met een nieuwe TML?
+        
+            Ik wil nog uitzoeken hoe ik meer CSS kan toevoegen aan mijn visitekaartje. </p>
+
+
+        </article>
+    </body>
+
