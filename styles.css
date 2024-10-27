@@ -1,6 +1,10 @@
 :root
   { --main-color-green:  #b1d8b7; }
 
+  html {
+    scroll-behavior: smooth;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -15,8 +19,20 @@ header {
     text-align: center;
 }
 
+.id {
+    text-align: center;
+}
+
 body {
     font-family: "Relieve", sans-serif;
+}
+
+a {
+    border-color: green;
+}
+
+a:visited {
+    color: darkolivegreen;
 }
 
 article {
@@ -29,10 +45,17 @@ article {
 
 img {
     border-radius: 10px;
-    box-shadow: 0 0 4px 4px rgba(0,0,0,.1);
+    box-shadow: 0 0 4px 4px rgba(0,0,0,.1);  
+  }
+
+  @media only screen and (min-width: 300px) {
+    img {
+      border-image-width: 80%;
+    }
   }
 
   .responsive {
     max-width: 50%;
     height: auto;
   }
+
