@@ -23,17 +23,12 @@ header {
     text-align: center;
 }
 
+
 body {
     font-family: "Relieve", sans-serif;
 }
 
-a {
-    border-color: green;
-}
 
-a:visited {
-    color: darkolivegreen;
-}
 
 article {
     background: var(--main-color-green);
