@@ -10,6 +10,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
