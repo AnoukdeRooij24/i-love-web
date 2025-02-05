@@ -11,7 +11,7 @@ body {
 /* FONTS */
 @font-face {
     font-family: 'MS Madi' ;
-    src: url(fonts/Ms_Madi/MsMadi-Regular.ttf);
+    src: url(fonts/fonts/MsMadi-Regular.ttf);
 }
 
 h1 {
@@ -20,12 +20,12 @@ h1 {
     font-weight: 200;
     text-align: center;
     position: relative;
-
 }
 
 h2 {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 2em;
+    text-align: center;
 }
 
 h3 {
@@ -55,8 +55,13 @@ header {
     }
 }
 
+ul {
+    padding-inline-start: inherit;
+}
+
 li{
     margin: .7em;
+    text-align: center;
     list-style: none;
     .list-item {
         background-color: var(--main-beige);

@@ -4,11 +4,12 @@ body {
     --accent-green:  #65856a; 
     background-color: var(--main-beige);
     justify-content: center;
+
   }
 
 @font-face {
-font-family: 'MS madi';
-src: url(../fonts/fonts/MsMadi-Regular.ttf);
+    font-family: 'MS madi';
+    src: url(../fonts/fonts/MsMadi-Regular.ttf);
 }
 
 h1 {
@@ -55,10 +56,3 @@ article {
     margin: 2em;
     width: 80vw;
 }
-
-img {
-    width: auto; 
-    height: 230; 
-    max-width: 25%;
-}
-
