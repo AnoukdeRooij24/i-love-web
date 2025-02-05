@@ -1,0 +1,69 @@
+body { 
+    --main-green:  #b1d8b7; 
+    --main-beige: #f9f5ef;
+    --accent-green:  #65856a; 
+    background-color: var(--main-green);
+    color-scheme:light dark;
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: 'MS Madi' ;
+    src: url(fonts/Ms_Madi/MsMadi-Regular.ttf);
+}
+
+h1 {
+    font-family: 'MS madi','Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 7em;
+    font-weight: 200;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1em;
+}
+
+a {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1em;
+}
+
+
+
+header {
+    position: relative;
+    .butter {
+        position: absolute;
+        top: .2em;
+        right: 1em;
+        height: 7em;
+        width: auto;
+    }
+}
+
+li{
+    margin: .7em;
+    list-style: none;
+    .list-item {
+        background-color: var(--main-beige);
+        color: black;
+        padding: .3em;
+        border-radius: 10em;
+        text-decoration: none;
+    }
+}
+
+
+  

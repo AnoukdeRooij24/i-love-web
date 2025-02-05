@@ -1,0 +1,38 @@
+body { 
+    --main-green:  #b1d8b7; 
+    --main-beige:  #f9f5ef;
+    --accent-green:  #65856a; 
+    background-color: var(--main-beige);
+  }
+
+  h1 {
+    /* font-family: "Brush Script MT"; */
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1em;
+}
+
+a {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1em;
+}
+
+article {
+    background-color: var(--main-green);
+}
+
+img {
+    width: auto; 
+    height: 230; 
+    max-width: 25%;
+}
+
