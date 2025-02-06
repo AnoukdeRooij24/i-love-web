@@ -17,6 +17,7 @@ h1 {
     font-size: 7em;
     font-weight: 200;
     text-align: center;
+    position: relative;
 }
 
 @font-face {
@@ -29,4 +30,12 @@ p {
     font-size: 1em;
     max-width: 80ch;
     /* text-align: center; */
+}
+
+.butter {
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    height: 5em;
+    width: auto;
 }

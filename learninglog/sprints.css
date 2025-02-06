@@ -16,6 +16,8 @@ h1 {
     font-size: 7em;
     font-weight: 200;
     text-align: center;
+    position: relative;
+
 }
 
 h2 {
@@ -46,6 +48,14 @@ a {
 li {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;  
+}
+
+.butter {
+    position: absolute;
+    top: 1em;
+    right: 3em;
+    height: 5em;
+    width: auto;
 }
 
 article {
