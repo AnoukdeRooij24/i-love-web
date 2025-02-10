@@ -43,17 +43,16 @@ a {
     font-size: 1em;
 }
 
-
-
 header {
     .butter {
         position: absolute;
         top: 1em;
         right: 3em;
-        height: 5em;
+        height: 3em;
         width: auto;
     }
 }
+
 
 ul {
     padding-inline-start: inherit;

@@ -56,3 +56,15 @@ article {
     margin: 2em;
     width: 80vw;
 }
+
+.butter {
+    position: absolute;
+    top: 1em;
+    left: 3em;
+    height: 5em;
+    width: auto;
+}
+
+.midden {
+    align-items: center;
+}
