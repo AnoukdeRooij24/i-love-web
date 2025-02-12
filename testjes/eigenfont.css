@@ -7,6 +7,23 @@ body {
     align-items: center;
   }
 
+main {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: .1em;
+}
+
+article {
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+@font-face {
+    font-family: 'pixelfont';
+    src: url(../fonts/fonts/PixelFont-Regular.otf);
+}
+
 @font-face {
     font-family: 'MS madi';
     src: url(../fonts/fonts/MsMadi-Regular.ttf);
@@ -20,22 +37,17 @@ h1 {
     position: relative;
 }
 
-@font-face {
-    font-family: 'pixelfont';
-    src: url(../fonts/fonts/PixelFont-Regular.otf);
-}
-
 p {
     font-family: 'pixelfont', 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;
     max-width: 80ch;
-    /* text-align: center; */
+    line-height: 200%;
 }
 
 .butter {
-    position: absolute;
+    position: fixed;
     top: 1em;
-    left: 3em;
+    left: 1.7em;
     height: 5em;
     width: auto;
 }

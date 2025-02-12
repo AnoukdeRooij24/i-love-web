@@ -60,9 +60,9 @@ li {
 }
 
 .butter {
-    position: absolute;
+    position: fixed;
     top: 1em;
-    left: 3em;
+    left: 1.7em;
     height: 5em;
     width: auto;
 }
