@@ -27,7 +27,7 @@ h1 {
 h2 {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 2em;
-    justify-content: center;
+    text-align: center;
 }
 
 h3 {
@@ -43,6 +43,12 @@ h4 {
 p {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;
+}
+
+.quote {
+    font-family: 'MS madi','Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 2em;
+    margin: .3em;
 }
 
 a {
