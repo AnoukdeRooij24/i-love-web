@@ -56,10 +56,14 @@ a {
     font-size: 1em;
 }
 
-li {
-    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
-    font-size: 1em;  
+ul {
+    margin-top: .2em;
+    li {
+        font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+        font-size: 1em;  
+    }
 }
+
 
 article {
     background-color: var(--main-green);
