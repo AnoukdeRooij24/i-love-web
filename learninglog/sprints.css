@@ -77,10 +77,16 @@ article {
     grid-column-end: 2;
 }
 
-img {
+.img-staand {
     width: auto; 
-    height: 230; 
+    height: 50 ; 
     max-width: 25%;
     border-radius: 10px;
 }
 
+.img-liggend {
+    width: auto; 
+    height: 50; 
+    max-width: 48%;
+    border-radius: 10px;
+}
