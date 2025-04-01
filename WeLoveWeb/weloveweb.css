@@ -87,3 +87,17 @@ article {
 .midden {
     align-items: center;
 }
+
+.img-staand {
+    width: auto; 
+    height: 50 ; 
+    max-width: 25%;
+    border-radius: 10px;
+}
+
+.img-liggend {
+    width: auto; 
+    height: 50; 
+    max-width: 48%;
+    border-radius: 10px;
+}

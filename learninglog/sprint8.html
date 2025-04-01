@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="/index.html"><img class="butter" src="/bewijsmateriaal/vlinder-groen.svg"></a>
+        <a href="/index.html"><img class="butter" src="../bewijsmateriaal/vlinder-groen.svg"></a>
         <h1>Sprint 8</h1>
     </header>
 
@@ -23,6 +23,104 @@
                 <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/1#issuecomment-2694295831">debriefing</a> gedaan. 
                 Daarna hebben we ook gelijk de <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/3#issuecomment-2700995306">intervace inventory</a>
                 gemaakt. En ben ik vast begonnen met wat schetsen maken voor de <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/2#issuecomment-2700981599">desktop</a> versie.
+            </p>
+
+            <h3>bewijsmateriaal:</h3>
+            <img class="img-staand" src="" alt="">
+        </article>
+
+        <article>
+            <h2>Daily checkout, woensdag 5-3-25</h2>
+            <h3>Wat heb ik vandaag gedaan?</h3>
+            <p>
+                Ik ben verder gegaan met schetsen vandaag. Ik heb een wireflow <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/2#issuecomment-2700970460">getekend</a> en in 
+                <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/2#issuecomment-2700980490">Figma</a> gemaakt en de schetsen van 
+                <a href="https://github.com/AnoukdeRooij24/server-side-rendering-server-side-website/issues/2#issuecomment-2700981154">mobiel</a> gemaakt met de nodige informatie erbij. Daarnaast ben ik ook begonnen in de code vandaag, 
+                ik heb mijn terminal in vs code gefixt, dus die doet het eindelijk! (Het probleem kwam omdat mijn FDND mapje, waar alle repo's in staan, blijkbaar in mijn OneDrive was opgeslagen. 
+                Daardoor deed om de een of andere reden de terminal het dus niet.)
+            </p>
+
+            <h3>bewijsmateriaal:</h3>
+            <img class="img-staand" src="" alt="">
+            <img class="img-staand" src="" alt="">
+            <img class="img-staand" src="" alt="">
+            <img class="img-staand" src="" alt="">
+            <img class="img-staand" src="" alt="">
+        </article>
+
+        <article>
+            <h2>Daily checkout, vrijdag 7-3-25</h2>
+            <h3>Wat heb ik vandaag gedaan?</h3>
+            <p>
+
+            </p>
+        </article>
+
+        <article>
+            <h2>Daily checkout, maandag 10-3-25</h2>
+            <h3>Wat heb ik vandaag gedaan?</h3>
+            <p>
+
+            </p>
+            <h3>bewijsmateriaal:</h3>
+            <img class="img-staand" src="" alt="">
+        </article>
+
+        <article>
+            <h2>Daily checkout, woensdag 12-3-25</h2>
+            <h3>Workshop Data filteren:</h3>
+            <ul>
+                <li><b>Experiment 1:</b> Ik wil alle studenten gesorteerd op name:     'https://fdnd.directus.app/items/person?fields=name'</li>
+                <li><b>Experiment 2:</b> Ik wil alle names van studenten die een name hebben die begint met de letter D:   'https://fdnd.directus.app/items/person?fields=name&filter[name][_start_with]=D</li>
+                <li><b>Experiment 3:</b> Ik wil alle names van studenten die een name hebben die begint met de letter D of K:  'https://fdnd.directus.app/items/person?fields=name&filter[_or][0][name][_start_with]=D&filter[_or][1][name][_start_with]=K</li>
+                <li><b>Experiment 4:</b> Ik wil alle names en birthdates van studenten die een birthdate hebben ingevuld:     'https://fdnd.directus.app/items/person/?fields=name ... '</li>
+                <li><b>Experiment 5:</b> Ik wil alle names en birthdates van studenten met een birthdate in 2002:</li>
+                <li>Experiment 6: Haal een lijst van alle unieke fav_tag op, en laat zien hoeveel mensen die tag hebben:</li>
+            </ul>
+
+            <h3>Template filters:</h3>
+            <ul>
+                <li>
+                    <b>Experiment Capitalize: </b> <br>
+                    Het maakt niet uit wat je typt aan blokletters / kleine letters, als je {{ "title" | capitalize }} neerzet wordt de eerste letter altijd een hoofdletter. 
+                    Dit kan in alle tekst elemeten, bijv. h1, h2 & p etc.
+                </li>
+                <li>
+                    <b>Experiment Join: </b> <br>
+                    Zorgt ervoor dat bijvoorbeeld alle komma's in de gegeven zin worden vervangen door het woordje "en". Als je het zo neerzet: <br>
+                    `{% assign group = "Anouk, Daniëlle, Marisya, Carmen" | split: ", " %}` `{{ group | join: " en " }}` zorg je dat je met `split` aangeeft welk teken veranderd gaat worden en met `join` wat ervoor in de plaats gaat komen. <br>
+                     Dan is je resultaat: 'Anouk en Daniëlle en Marisya en Carmen'
+                </li>
+                <li>
+                    <b>Experiment Plus: </b> <br>
+                    Hiermee tel je een nummer bij een nummer op. Als je {{ 4 | plus: 2 }} neerzet, dan is je resultaat '6'.
+                </li>
+                <li>
+                    <b>Experiment Replace: </b> <br>
+                    Hiermee kan je een bepaald gedeelte van je zin veranderen naar iets anders. Bij | replace zet je voor de komma wat je wilt laten veranderen en achter de komma wat er voor in de plaats moet komen. <br>
+                    {{ "Take my protein pills and put my helmet on" | replace: "my", "your" }} <br>
+                    Dan krijg je: 'Take your protein pills and put my helmet on' <br>
+                </li>
+                <li>
+                    <b>Experiment Split: </b> <br>
+                    {% assign group = "Anouk, Daniëlle, Marisya, Carmen" | split: ", " %} <br>
+                    {% for member in group %}   {{ member }}    {% endfor %} <br>
+                    Als je dit zo neer zet dan kan je ipv een komma, de namen onder elkaar zetten. Op de plek van split welk teken je wilt veranderen. Dan is je resultaat: <br>
+                    Anouk <br>
+                    Daniëlle <br>
+                    Marisya <br>
+                    Carmen
+                </li>
+            </ul>
+        </article>
+
+        <article>
+            <h2></h2>
+            <h3>Redesign studio</h3>
+            <p>
+                Ik vind het heerlijk om op mijn vaste plekje in de hoek van het lokaal te zitten met mn rug naar de klas, dan kan ik de rest van de afleiding lekker buitensluiten.
+                Maar zodra ik op een ander plekje ga zitten dan kan ik me ook niet concentreren omdat er dan teveel om mij heen gebeurd. 
+                Ik vind het fijn om met een whiteboard te werken, als je dan met een aantal mensen zit kan je snel en overzichtelijk werken.
             </p>
         </article>
     </main>
