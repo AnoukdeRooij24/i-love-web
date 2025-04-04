@@ -1,0 +1,2 @@
+### wat heb ik gedaan vandaag?
+Code revieuw bij @Brancovanbeek en @halima98. Daarna ben ik verder gegaan aan mn i love web, daily checkouts. Ik heb de nieuwe daily updates en foto's bij elkaar gezocht en erin gezet.

@@ -1,0 +1,2 @@
+### Wat heb ik vandaag gedaan?
+Ik heb meegedaan aan de workshop over het mobile first ontwerpen. Daarna heb ik de belangrijkste algemeene dingen zoals: kleuren, fonts en fontsizes in een style sheet gezet. Zo kan ik deze makkelijk toepassen op een appart css bestand.

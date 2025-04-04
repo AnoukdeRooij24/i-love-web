@@ -1,0 +1,2 @@
+### Wat heb ik vandaag gedaan?
+We hebben de retrospect van sprint 4 gehad vandaag. We hebben met ons bieb in bloei team uit 1H besproken wat we hebben gedaan, wie wat heeft gedaan en hoe we het hebben gedaan. We hebben op het whiteboard geschreven wie welke issues heeft opgepakt. Daarna zijn we bezig gegaan met de bewijslasten, een deel moesten we samen doen dus dat hebben we gedaan. Daarna is iedereen individueel verder gegaan met de andere twee bewijslasten maar hebben we elkaar nog wel geholpen onderling. 

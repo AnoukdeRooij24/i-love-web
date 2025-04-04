@@ -1,0 +1,4 @@
+### Wat heb ik vandaag gedaan?
+Ik heb mee gedaan met de workshop over interacties. WHITEBOARD FOTO'S 
+En daarna ben ik aan de gang gegaan met mijn interactie ontwerpen. Mijn user story is vrij duidelijk omdat dat de hele reden is dat mensen naar de website zoeken: _"Als iemand die opzoek is naar een passend cadeautje, wil ik kunnen chatten met AI zodat ik snel en gemakkelijk een passend cadeautje kan vinden voor een persoon."_
+Op mijn hifi schets heb ik een wireflow gemaakt. En vanuit daar ben ik vast begonnen met het bedenken hoe ik het duidelijkst een breakdownschets kan maken met alle lagen.
