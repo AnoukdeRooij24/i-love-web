@@ -1,0 +1,27 @@
+{
+  "name": "i-love-web",
+  "version": "1.0.0",
+  "description": "Mijn i love webiste ",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnoukdeRooij24/i-love-web.git"
+  },
+  "author": "Anouk de Rooij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnoukdeRooij24/i-love-web/issues"
+  },
+  "homepage": "https://github.com/AnoukdeRooij24/i-love-web#readme",
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^5.1.0"
+  }
+}
