@@ -47,3 +47,4 @@ Mensen gereviewd:
 ### Wat heb ik gedaan vandaag?
 
 [Blog](https://lagunab.com/magazine/essay-there-is-no-nice-web-yet-by-bri-griffin) die justus had gestuurd gelezen.
+
