@@ -1,24 +1,29 @@
-<main>
-    <h2>Learning journal</h2>
-    <ul>
-        <li><a class="list-item" href="learninglog/sprint1.html">SPRINT 1</a></li>
-        <li><a class="list-item" href="learninglog/sprint2.html">SPRINT 2</a></li>
-        <li><a class="list-item" href="learninglog/sprint3.html">SPRINT 3</a></li>
-        <li><a class="list-item" href="learninglog/sprint4.html">SPRINT 4</a></li>
-        <li><a class="list-item" href="learninglog/sprint5.html">SPRINT 5</a></li>
-        <li><a class="list-item" href="learninglog/sprint6.html">SPRINT 6</a></li>
-        <li><a class="list-item" href="learninglog/sprint7.html">SPRINT 7</a></li>
-        <li><a class="list-item" href="learninglog/sprint8.html">SPRINT 8</a></li>
-        <li><a class="list-item" href="learninglog/sprint9.html">SPRINT 9</a></li>
-    </ul>
+{% render 'partials/head.liquid' %}
 
-    <p>
-        hier komt het hoor
-    </p>
+    <header>
+        <img class="butter" src="bewijsmateriaal/vlinder-wit-uitgeknipt.svg">
+        <h1>Learning journal</h1>
+    </header>
 
-    <section>
-        <h2>daily checkouts</h2>
-        {% for file in files %}
-            <a href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
-        {% endfor %}  
-    </section>
+    <main>
+        {% comment %} <h2>Learning journal</h2>
+        <ul>
+            <li><a class="list-item" href="learninglog/sprint1.html">SPRINT 1</a></li>
+            <li><a class="list-item" href="learninglog/sprint2.html">SPRINT 2</a></li>
+            <li><a class="list-item" href="learninglog/sprint3.html">SPRINT 3</a></li>
+            <li><a class="list-item" href="learninglog/sprint4.html">SPRINT 4</a></li>
+            <li><a class="list-item" href="learninglog/sprint5.html">SPRINT 5</a></li>
+            <li><a class="list-item" href="learninglog/sprint6.html">SPRINT 6</a></li>
+            <li><a class="list-item" href="learninglog/sprint7.html">SPRINT 7</a></li>
+            <li><a class="list-item" href="learninglog/sprint8.html">SPRINT 8</a></li>
+            <li><a class="list-item" href="learninglog/sprint9.html">SPRINT 9</a></li>
+        </ul> {% endcomment %}
+
+        <section>
+            <h2>daily checkouts</h2>
+            <article>
+                {% for file in files %}
+                    <a href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
+                {% endfor %}  
+            </article>
+        </section>

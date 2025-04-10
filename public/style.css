@@ -11,7 +11,7 @@ body {
 /* FONTS */
 @font-face {
     font-family: 'MS Madi' ;
-    src: url(fonts/fonts/MsMadi-Regular.ttf);
+    src: url(fonts/MsMadi-Regular.ttf);
 }
 
 h1 {
@@ -73,4 +73,9 @@ li{
 }
 
 
-  
+.detail-daily {
+    background-color: #F4EBAB ;
+    max-width: 60% ;
+    padding: 2em;
+    justify-self: center;
+}

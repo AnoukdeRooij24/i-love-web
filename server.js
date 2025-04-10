@@ -40,14 +40,27 @@ app.get('/learning-journal', async function(request, response){
     response.render('learning-journal.liquid', {files: files})
 })
 
-app.get('/learning-journal/:slug', async function (request, response) {
-    // console.log(request.params.slug)
-    const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
-    const markedUpFileContents = marked.parse(fileContents)
-    response.render('artikel.liquid', {fileContents: markedUpFileContents})
+    app.get('/learning-journal/:slug', async function (request, response) {
+        // console.log(request.params.slug)
+        const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents = marked.parse(fileContents)
+        response.render('artikel.liquid', {fileContents: markedUpFileContents})
+    })
+
+app.get('/we-love-web', async function(request, response){
+    response.render('wlw.liquid', {files: files})
 })
 
+    app.get('/we-love-web/:slug', async function (request, response) {
+        // console.log(request.params.slug)
+        const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents = marked.parse(fileContents)
+        response.render('wlw-detail.liquid', {fileContents: markedUpFileContents})
+    })
 
+app.get('/about-me', async function(request, response){
+    response.render('about-me.liquid', {files: files})
+})
 
 // Stel het poortnummer in waar Express op moet gaan luisteren
 // Lokaal is dit poort 8000, als dit ergens gehost wordt, is het waarschijnlijk poort 80

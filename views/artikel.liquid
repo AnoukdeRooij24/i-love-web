@@ -1,6 +1,7 @@
-{% render 'partials/header.liquid' %}
+{% render 'partials/head.liquid' %}
 
-<section>
-    <h2>daily checkouts</h2>
-    {{ fileContents }}
-</section>
+<main> 
+    <section>
+        <h2>Daily checkouts</h2>
+        <article class="detail-daily"> {{ fileContents }} </article>
+    </section>
