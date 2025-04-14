@@ -21,9 +21,9 @@
 
         <section>
             <h2>daily checkouts</h2>
-            <article>
+            <article class="note-box">
                 {% for file in files %}
-                    <a href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
+                    <a class="notes" href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
                 {% endfor %}  
             </article>
         </section>

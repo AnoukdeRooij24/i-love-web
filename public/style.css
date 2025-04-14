@@ -74,8 +74,26 @@ li{
 
 
 .detail-daily {
-    background-color: #F4EBAB ;
+    background-color: #FFFED8 ;
     max-width: 60% ;
     padding: 2em;
     justify-self: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.note-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(17em, 100%), 1fr));
+    grid-gap: 2em;
+    width: 15em;
+    height: 15em;
+    padding: 1em;
+    background-color: #FFFED8;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
