@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3em;
+    margin: .1em;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin: .5em;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: solid 2px #328E6E ;
+    background-color: #BEE4D0;
+    padding: .5em;
+    border-radius: .4em;
+    margin: .4em;
+}

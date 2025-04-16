@@ -2,6 +2,7 @@
 
 <main> 
     <section>
-        <h2>Daily checkouts</h2>
+        <h1>Daily checkout</h1>
+        <h2> {{ file|slice:0,-3 }} </h2>
         <article class="detail-daily"> {{ fileContents }} </article>
     </section>

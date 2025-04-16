@@ -7,6 +7,7 @@ Daarna heb ik twee sitemaps getekend. Een van de bestaande situatie en 1 van de 
 1. sitemap maken
 2. wireframe schetsen
 3. perfect vierkant van 5 cm tekenen
+- 
 
 
 ### Bewijsmateriaal

@@ -1,3 +1,5 @@
+# 
+
 ### Wat heb ik vandaag gedaan?
 We zijn vandaag begonnen met de sprint planning. Ik heb met de mensen aan mijn tafel (Rapha, Sidney, Sebastiaan en Kate) een planning gemaakt op het whiteboard. *FOTO WHITEBOARD* Vanuit daar heb ik de belangrijkste dingen in mijn issues en project board gezet. 
 Daarna gingen we verder met de workshop Fix the Flow - Interactive Website - User Interface Design. We hebben met onze tafel onderzocht wat de feedback en feedforward van de prototype van de website : https://medium.com/@WeAreFantasy/tinder-6dfca630ad53  *FOTO WHITEBOARD*
