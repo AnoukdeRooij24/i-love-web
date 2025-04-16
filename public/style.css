@@ -63,13 +63,15 @@ li{
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;
     margin: .7em;
-    .list-item {
-        background-color: var(--main-beige);
-        color: black;
-        padding: .3em;
-        border-radius: 10em;
-        text-decoration: none;
-    }
+    list-style: none;   
+}
+
+.list-item-home {
+    background-color: var(--main-beige);
+    color: black;
+    padding: .3em;
+    border-radius: 10em;
+    text-decoration: none;
 }
 
 
@@ -95,5 +97,5 @@ li{
     padding: 1em;
     background-color: #FFFED8;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    
+
 }
