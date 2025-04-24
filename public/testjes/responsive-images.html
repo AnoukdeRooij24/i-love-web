@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive images</title>
+    <link rel="stylesheet" href="responsive-images.css">
+</head>
+<body>
+    <h1> Responsive images </h1>
+
+    <h2>Picture element:</h2>
+    
+    <picture>
+        <source type="image/avif" srcset="../assets/background-test.avif">
+        <source type="image/webp" srcset="../assets/background-test.webp">
+        <img src="../assets/background-test.jpg" alt="foto" height="400" >
+    </picture>
+
+    <h2> Resolution switching: </h2>
+
+    <picture>
+        <source media="(max-width: 400px)" type="image/avif" srcset="../assets/background-test.avif">
+        <source media="(max-width: 400px)" type="image/webp" srcset="../assets/background-test.webp">
+        <img src="../assets/background-test.jpg" alt="foto" width="400" >
+
+    </picture>
+
+
+
+</body>
+</html>
