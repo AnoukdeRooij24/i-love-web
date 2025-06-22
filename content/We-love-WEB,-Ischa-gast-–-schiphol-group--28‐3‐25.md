@@ -6,12 +6,12 @@ Ischa gast – schiphol group
 -	Toegankelijkheid is geen rocket sience
 
 Hoe?
--	Correcte html 
--	Zorg dat de koppen strusctuur goed is
--	Lees meer links zeggen niet zo veel
--	Focus styles (tabben orientatie)
--	Contrast – licht blauw, licht groen en oranje zijn meestal niet goed
--	 Doe dingen samen met mensen met een beperking
+- Correcte html 
+- Zorg dat de koppen strusctuur goed is
+- Lees meer links zeggen niet zo veel
+- Focus styles (tabben orientatie)
+- Contrast – licht blauw, licht groen en oranje zijn meestal niet goed
+- Doe dingen samen met mensen met een beperking
 
 -	Belangrijke links in de nav
 -	Bijv tekst plaatsen op de site die hidden is voor iedereen behalve screenreaders
