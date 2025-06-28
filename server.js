@@ -13,6 +13,8 @@ import { marked } from 'marked'
 
 const files = await readdir('content')
 console.log(files)
+const files2 = await readdir('content2')
+
 
 // Maak een nieuwe Express applicatie aan, waarin we de server configureren
 const app = express()
@@ -48,15 +50,15 @@ app.get('/learning-journal', async function(request, response){
     })
 
 app.get('/we-love-web', async function(request, response){
-    response.render('wlw.liquid', {files: files})
+    response.render('wlw.liquid', {files2: files2})
 })
 
     app.get('/we-love-web/:slug', async function (request, response) {
         // console.log(request.params.slug)
-        const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
-        const markedUpFileContents = marked.parse(fileContents)
-        response.render('wlw-detail.liquid', {fileContents: markedUpFileContents})
-    })
+        const fileContents2 = await readFile('content2/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents2 = marked.parse(fileContents2)
+        response.render('wlw-detail.liquid', {fileContents2: markedUpFileContents2})
+    }) 
 
 app.get('/about-me', async function(request, response){
     response.render('about-me.liquid', {files: files})

@@ -1,0 +1,13 @@
+{% render 'partials/head.liquid' %}
+
+
+<section>
+    <h2>We LOVE web's</h2>
+    <article class="note-box">
+        {% for file in files2 %}
+            <a class="notes" href="/we-love-web/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
+        {% endfor %}  
+    </article>
+</section>
+
+{% render 'partials/foot.liquid' %}

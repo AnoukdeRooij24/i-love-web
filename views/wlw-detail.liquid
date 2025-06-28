@@ -1,6 +1,12 @@
-{% render 'partials/header.liquid' %}
+{% render 'partials/head.liquid' %}
 
 <section>
-    <h2>daily checkouts</h2>
-    {{ fileContents }}
+    <h1>We LOVE Web</h1>
+    <h2> {{ file|slice:0,-3 }} </h2>
+    <article> {{ fileContents2 }} </article>
 </section>
+
+<p> test? </p>
+
+{% render 'partials/foot.liquid' %}
+
