@@ -2,7 +2,7 @@ body {
     --main-green:  #b1d8b7; 
     --main-beige: #f9f5ef;
     --accent-green:  #65856a; 
-    background-color: var(--main-green);
+    background-color: white;
     color-scheme:light dark;
     padding: 1em;
 }
@@ -11,7 +11,7 @@ body {
 /* FONTS */
 @font-face {
     font-family: 'MS Madi' ;
-    src: url(fonts/MsMadi-Regular.ttf);
+    src: url(../fonts/MsMadi-Regular.ttf);
 }
 
 h1 {
@@ -76,7 +76,6 @@ li{
 
 
 .detail-daily {
-    background-color: #FFFED8 ;
     max-width: 60% ;
     padding: 2em;
     justify-self: center;
@@ -86,16 +85,19 @@ li{
 .note-box {
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 .notes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(17em, 100%), 1fr));
-    grid-gap: 2em;
     width: 15em;
-    height: 15em;
+    height: 8em;
     padding: 1em;
-    background-color: #FFFED8;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-
+    border: var(--main-green) solid 3px;
+    border-radius: 20px;
+    a {
+        color: black;
+    }
 }
