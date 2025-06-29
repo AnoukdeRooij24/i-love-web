@@ -1,3 +1,4 @@
+# Dion Pieters
 ### Er zijn een aantal vragen die je aan je zelf kan stellen als je een portfolio gaat maken:
 -	Waar ben je begonnen?
 -	Waar sta je nu?

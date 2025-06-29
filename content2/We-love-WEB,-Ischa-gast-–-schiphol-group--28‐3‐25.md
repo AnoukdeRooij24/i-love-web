@@ -1,11 +1,11 @@
-Ischa gast – schiphol group 
+# Ischa gast – schiphol group 
 
 -	Accessebility is liefde voor een ander vind ischa
 -	56,8 accessebility gemiddeld fouten op top 1 miljoen websites
 -	100 % van de mensen heeft een beperking (al is het maar voor een tijdje)
 -	Toegankelijkheid is geen rocket sience
 
-Hoe?
+## Hoe?
 - Correcte html 
 - Zorg dat de koppen strusctuur goed is
 - Lees meer links zeggen niet zo veel

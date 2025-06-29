@@ -1,3 +1,4 @@
+# Dave Bitter
 ## Over Dave Bitter
 * Senior Front-end Consultant
 * achtergrond in development and design

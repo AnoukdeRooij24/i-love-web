@@ -1,2 +1,47 @@
+.h1-home {
+    font-family: 'Slackey','Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 3em;
 
+    background-image: url(../assets/andrew-ridley-jR4Zf-riEjI-unsplash.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: contain;
+    /* filter: drop-shadow(0 0 0.75rem black); */
+
+    @media (width > 800px) {
+        font-size: 5em;
+        transition: .5s;
+    }
+
+    @media (width > 1200px) {
+        font-size: 9em;
+        transition: .5s;
+    }
+
+}
+
+.home-nav{
+    justify-self: center;
+
+    a{
+        color: black;
+        text-decoration: none;
+        font-family: 'Slackey','Open Sans',"Relieve", Arial, sans-serif;
+
+    }
+    
+    @media (width > 800px) {
+        font-size: 1.5em;
+        transition: .5s;
+    }
+
+
+}
+
+.home-main {
+    /* background-image: url(../assets/Ontwerp_zonder_titel-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
 
