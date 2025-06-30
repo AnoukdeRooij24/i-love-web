@@ -1,5 +1,5 @@
 {% render 'partials/head.liquid' %}
-
+<body>
     <header>
         <img class="butter" src="bewijsmateriaal/vlinder-wit-uitgeknipt.svg">
         <h1>Learning journal</h1>
@@ -11,7 +11,10 @@
             <a class="back" href="/">← Back to home</a>
             <article class="note-box">
                 {% for file in files %}
-                    <a class="notes" href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 }} </a>
+                    <a class="notes" href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 | capitalize }} </a>
                 {% endfor %}  
             </article>
         </section>
+    </main>
+</body>
+        

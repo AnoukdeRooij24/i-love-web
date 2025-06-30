@@ -1,10 +1,13 @@
 {% render 'partials/head.liquid' %}
+<body>
+    <main> 
+        <section>
+            <h1>Daily checkout</h1>
+            <a class="back" href="/">← Back to home</a>
 
-<main> 
-    <section>
-        <h1>Daily checkout</h1>
-        <a class="back" href="/">← Back to home</a>
-
-        <h2> {{ file|slice:0,-3 }} </h2>
-        <article class="detail-daily"> {{ fileContents }} </article>
-    </section>
+            <h2> {{ file|slice:0,-3 }} </h2>
+            <article class="detail-daily"> {{ fileContents }} </article>
+        </section>
+    </main>
+</body>
+{% render 'partials/foot.liquid' %}

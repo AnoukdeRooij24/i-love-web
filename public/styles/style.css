@@ -1,10 +1,14 @@
 body { 
     --main-green:  #b1d8b7; 
     --main-beige: #f9f5ef;
+    --accent-beige: #fcfaf6;
     --accent-green:  #65856a; 
-    background-color: white;
     color-scheme:light dark;
+    margin: 0;
     padding: 1em;
+    min-height: 100vh;
+
+    background-color: var(--accent-beige);
 }
 
 
@@ -69,7 +73,6 @@ li{
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;
     margin: .7em;
-    list-style: none;   
 }
 
 .list-item-home {
@@ -104,9 +107,10 @@ li{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: var(--main-green) solid 3px;
     border-radius: 20px;
-    background-image: url(../assets/Ontwerp_zonder_titel-removebg-preview.png);
+    background-image: url(../assets/bloemen-border-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position-y: bottom;
     color: black;
     text-decoration: none;
 }
@@ -118,4 +122,31 @@ li{
     background-color: var(--main-green);
     color: black;
     text-decoration: none;
+}
+
+/* MARK: view transition */
+@view-transition {
+    navigation: auto;
+}
+
+@keyframes animate-in-and-out {
+	entry 0%  {
+		opacity: 0; transform: translateY(100%);
+	}
+	entry 100%  {
+		opacity: 1; transform: translateY(0);
+	}
+
+	exit 0% {
+		opacity: 1; transform: translateY(0);
+	}
+	exit 100% {
+		opacity: 0; transform: translateY(-100%);
+	}
+}
+
+.notes{
+	animation: linear animate-in-and-out;
+	animation-timeline: view();
+    transition-duration: .5s;
 }
