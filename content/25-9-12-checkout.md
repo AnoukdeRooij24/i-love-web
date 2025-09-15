@@ -1,0 +1,2 @@
+## Wat heb ik vandaag gedaan?
+Ik ben bij de We Love Web van [Togla](../content2/we-love-web-Togla.md) geweest. Daarna heb ik samen met Kim een code en design review gedaan op de squadpage van Amber, Julia en Stella. We hebben hierbij de stappen gevolgd die we kregen vanuit de workshop. 

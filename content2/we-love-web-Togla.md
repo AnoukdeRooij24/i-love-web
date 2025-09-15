@@ -47,4 +47,5 @@
 - Wees niet bang om hulp te vragen aan studenten en docenten
 - Werken met een team ga je blijven doen, so better like it!!
 - Gebruik geen AI (je bent hier om te leren, efficientie om snel te coden heb je nu nog niet nodig)
+- Github reposetory kan zeker goed helpen bij je sollitatie
 
