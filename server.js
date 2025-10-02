@@ -46,7 +46,7 @@ app.get('/learning-journal-1', async function(request, response){
         // console.log(request.params.slug)
         const fileContents1 = await readFile('content-j1/' + request.params.slug + '.md', { encoding: 'utf8' })
         const markedUpFileContents1 = marked.parse(fileContents1)
-        response.render('artikel.liquid', {fileContents1: markedUpFileContents1})
+        response.render('artikel-1.liquid', {fileContents1: markedUpFileContents1})
     })
 
 // LEARNING JOURNAL JAAR 2
@@ -58,7 +58,7 @@ app.get('/learning-journal-2', async function(request, response){
         // console.log(request.params.slug)
         const fileContents2 = await readFile('content-j2/' + request.params.slug + '.md', { encoding: 'utf8' })
         const markedUpFileContents2 = marked.parse(fileContents2)
-        response.render('artikel.liquid', {fileContents2: markedUpFileContents2})
+        response.render('artikel-2.liquid', {fileContents2: markedUpFileContents2})
     })
 
 // WE LOVE WEB

@@ -1,0 +1,2 @@
+## Wat heb ik vandaag gedaan?
+We hebben vandaag de [briefing](https://github.com/fdnd-agency/snappthis/wiki/Debriefing-22-September-2025) met de opdrachtgever gehad. Daarna hebben we van onze gezamenlijke aantekeningen een debriefing gemaakt en opgestuurd naar de opdrachtgever. Via teams hebben we ook meteen de volgende sprint review ingepland. 
