@@ -10,11 +10,9 @@ import { readdir, readFile } from 'node:fs/promises'
 
 import { marked } from 'marked'
 
-
-const files = await readdir('content')
-console.log(files)
-const files2 = await readdir('content2')
-
+const files1 = await readdir('content-j1')
+const files2 = await readdir('content-j2')
+const files3 = await readdir('content-wlw')
 
 // Maak een nieuwe Express applicatie aan, waarin we de server configureren
 const app = express()
@@ -34,34 +32,50 @@ app.set('views', './views')
 // Zorg dat werken met request data makkelijker wordt
 app.use(express.urlencoded({extended: true}))
 
+// HOME
 app.get('/', async function(request, response){
     response.render('home.liquid')
 })
 
-app.get('/learning-journal', async function(request, response){
-    response.render('learning-journal.liquid', {files: files})
+// LEARNING JOURNAL JAAR 1
+app.get('/learning-journal-1', async function(request, response){
+    response.render('learning-journal-1.liquid', {files1: files1})
 })
 
-    app.get('/learning-journal/:slug', async function (request, response) {
+    app.get('/learning-journal-1/:slug', async function (request, response) {
         // console.log(request.params.slug)
-        const fileContents = await readFile('content/' + request.params.slug + '.md', { encoding: 'utf8' })
-        const markedUpFileContents = marked.parse(fileContents)
-        response.render('artikel.liquid', {fileContents: markedUpFileContents})
+        const fileContents1 = await readFile('content-j1/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents1 = marked.parse(fileContents1)
+        response.render('artikel.liquid', {fileContents1: markedUpFileContents1})
     })
 
+// LEARNING JOURNAL JAAR 2
+app.get('/learning-journal-2', async function(request, response){
+    response.render('learning-journal-2.liquid', {files2: files2})
+})
+
+    app.get('/learning-journal-2/:slug', async function (request, response) {
+        // console.log(request.params.slug)
+        const fileContents2 = await readFile('content-j2/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents2 = marked.parse(fileContents2)
+        response.render('artikel.liquid', {fileContents2: markedUpFileContents2})
+    })
+
+// WE LOVE WEB
 app.get('/we-love-web', async function(request, response){
-    response.render('wlw.liquid', {files2: files2})
+    response.render('wlw.liquid', {files3: files3})
 })
 
     app.get('/we-love-web/:slug', async function (request, response) {
         // console.log(request.params.slug)
-        const fileContents2 = await readFile('content2/' + request.params.slug + '.md', { encoding: 'utf8' })
-        const markedUpFileContents2 = marked.parse(fileContents2)
-        response.render('wlw-detail.liquid', {fileContents2: markedUpFileContents2})
+        const fileContents3 = await readFile('content-wlw/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents3 = marked.parse(fileContents3)
+        response.render('wlw-detail.liquid', {fileContents3: markedUpFileContents3})
     }) 
 
+// ABOUT ME
 app.get('/about-me', async function(request, response){
-    response.render('about-me.liquid', {files: files})
+    response.render('about-me.liquid')
 })
 
 // Stel het poortnummer in waar Express op moet gaan luisteren

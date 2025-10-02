@@ -10,8 +10,8 @@
             <h2>Daily checkouts</h2>
             <a class="back" href="/">← Back to home</a>
             <article class="note-box">
-                {% for file in files %}
-                    <a class="notes" href="/learning-journal/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 | capitalize }} </a>
+                {% for file in files2 %}
+                    <a class="notes" href="/learning-journal-2/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 | capitalize }} </a>
                 {% endfor %}  
             </article>
         </section>
