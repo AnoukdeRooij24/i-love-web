@@ -28,20 +28,27 @@
         color: black;
         text-decoration: none;
         font-family: 'Slackey','Open Sans',"Relieve", Arial, sans-serif;
-
     }
     
     @media (width > 800px) {
         font-size: 1.5em;
         transition: .5s;
     }
-
-
 }
 
 .body-home {
-    background-image: url(../assets/Ontwerp_zonder_titel-removebg-preview.png);
+    min-height: 100hv;
+
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../assets/bloemen-test.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
+    height: 150px;
 }

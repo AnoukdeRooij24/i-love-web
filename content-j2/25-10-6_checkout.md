@@ -1,4 +1,4 @@
-## wat heb ik vandaag gedaan?
+## Wat heb ik vandaag gedaan?
 Vandaag hebben we een mappen structuur aangemaakt in ons project. Ik was de lead, Miel de Navigator en Iris de driver. Ook hebben we wat wijzigingen in de database gedaan en zijn we begonnen met data erin zetten. Daarna hebben we SvelteKit principes en best-practices uitgezocht en hebben we daar 1 van uitgewerkt in een gist. Iris en ik hebben daarna samen nog even gekeken of we mergeconflicten hebben en die meteen opgelost.
 
 ### Leervragen:

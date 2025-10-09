@@ -44,6 +44,12 @@ h3 {
     font-size: 1.5em;
 }
 
+h4 {
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
+    font-size: 1em;
+}
+
+
 p {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     font-size: 1em;
@@ -107,12 +113,13 @@ li{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border: var(--main-green) solid 3px;
     border-radius: 20px;
-    background-image: url(../assets/bloemen-border-removebg-preview.png);
+    background-image: url(../assets/bloemen-klein.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position-y: bottom;
     color: black;
     text-decoration: none;
+    justify-items: center;
 }
 
 .back {
