@@ -21,3 +21,7 @@ Vandaag gingen de eerste jaars aan de slag met de Layout in css deeltaak. Ik heb
 
 *** 
 
+## ➯ Vrijdag 10-10-25
+Vandaag zat ik bij Tjeerd en Gijs uit mijn project groepje. We begonnen met het bespreken van de sprint review van gister en daaruit een of meerdere issues maken. Daarna gingen we de dlc doorlopen en met sticky notes per week aangeven wat je in welke week hebt gedaan. Eerst was ik ze vooral aan het helpen maar daarna heb ik hem zelf voor mijn project ook gemaakt. Dit hebben ze in porrflow gezet en vroegen ze mij of ik daarbij wilde meekijken of ze het goed verwoord hebben. De mensen uit de andere klas van SnappThis (Julian, Heba en Ahlam) waren ook eindelijk op school. Ik heb met hun ook nog even snel gister besproken en gevraagd hoe ze de feedback genoteerd hebben. Daarna vroeg ik of het gelukt was met het mappen van portflow, maar hier hadden ze geen hulp meer bij nodig. 
+
+*** 
