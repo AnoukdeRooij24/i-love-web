@@ -7,7 +7,7 @@
 
 ## Over Martijn
 - Alkmaar / Bergen / Bergen aan zee
-- Was eerst kok met 1 millelain ster
+- Was eerst kok met 1 michelin ster
 - Als het niet top is, is het kut (slogan restaurant)
 - CMD studeren -> krijn docent
 - Werken bij Mirabeau -> transavia, mijn pensioen overzicht, Lanxess
