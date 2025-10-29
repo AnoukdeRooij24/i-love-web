@@ -41,3 +41,18 @@ De mensen uit de andere klas van SnappThis (Julian, Heba en Ahlam) waren ook ein
 
 ### Verbeterpunten:
 - Ik kan ze wel helpen met portflow maar toch denk ik dat ik hier nog beter in kan worden. (Vooral in het mappen van de bewijslast.)
+
+*** 
+
+## ➯ Vrijdag 17-10-25
+Ik heb vandaag een design review gegeven aan:
+- [Sven](https://github.com/Svenvandijk22/all-human-accessible-website/issues/7)
+- [Tin](https://github.com/WebTins/all-human-accessible-website/issues/16)
+- [Embre](https://github.com/issues/recent?issue=EmreBahar0912%7Call-human-accessible-website%7C2)
+- [Roxy](https://github.com/issues/recent?issue=Rox-Codelabs%7Call-human-accessible-website%7C16)
+- [Gijs](https://github.com/issues/recent?issue=gijscreator%7Call-human-accessible-website%7C6)
+- En mondeling aan [Seb](https://github.com/SebBastiaans/all-human-accessible-website/issues/3#issuecomment-3436890138) die hij in zn notitie boekje heeft geschreven
+
+*** 
+
+## ➯ Woensdag 29-10-25
