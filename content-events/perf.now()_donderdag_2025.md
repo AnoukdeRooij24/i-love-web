@@ -1,5 +1,6 @@
 # Performance.now()
-27-10-2025, Amsterdam, dag 1
+27-10-2025, Amsterdam
+Dag 1 - Donderdag
 
 ## ➯ How Fast is Fast Enough? - Tammy Everts
 <ul> 
