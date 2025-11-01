@@ -1,0 +1,21 @@
+{% render 'partials/head.liquid' %}
+<body>
+    <main> 
+        <article> 
+            <a class="back" href="/events">← Back to events</a>
+            {{ fileContents4 }} 
+        </article>
+    </main>
+</body>
+{% render 'partials/foot.liquid' %}
+
+<style>
+    main {
+        display: flex;
+        place-content: center;
+    }
+
+    article {
+        max-width: 75%;
+    }
+</style>
