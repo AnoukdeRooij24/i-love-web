@@ -1,5 +1,5 @@
 # Performance.now()
-28-10-2025, Amsterdam, 
+28-10-2025, Amsterdam <br>
 Dag 2 - Vrijdag
 
 ## ➯ Introduction to day 2 - Tim Kadelac

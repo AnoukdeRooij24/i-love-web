@@ -56,3 +56,9 @@ Ik heb vandaag een design review gegeven aan:
 *** 
 
 ## ➯ Woensdag 29-10-25
+Ik heb vandaag bij Julian, Thomas en Ahlam gezeten. Ik heb Julian geholpen met het mobile first maken van zijn CSS. Ik heb ook met Thomas meegekeken want hij had wat extra vragen. We hebben de wrap-up gedaan en de sprintreview voorbereid die we daarna om 1 uur hadden. Deze heb ik beeleid voor de eerstejaars. Dit ging goed, we hebben duidelijke feedback gekregen. 
+
+*** 
+
+## ➯ Woensdag 12-11-25
+Vandaag heb ik bij Sven, Tin (en hun twee andere groepsgenoten) en Emre geholpen met de styleguide. Het opzetten hiervan, oplossen van een paar mergeconflicten, de code conventies met hun doorgenomen. En daarna geholpen met het linken van de gezamenlijke stylesheet aan hun eigen project. 
