@@ -74,3 +74,5 @@
 ## Hoe is dat georganiseerd binnen Decathlon?
 - _arcitecture foto_
 - Het is een heel appart team binnen decathlon (12 personen is nog niet genoeg)
+
+- soft skills zijn belangerijker want hard skills kan je leren, je kan niet iemand leren om geen eikel te zijn :)
