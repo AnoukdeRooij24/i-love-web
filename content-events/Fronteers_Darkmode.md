@@ -1,4 +1,4 @@
-# Fronteers 
+# Fronteers darkmode
 3-10-2025, Dordrecht
 
 ## ➯ Intro

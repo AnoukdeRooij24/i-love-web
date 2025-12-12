@@ -62,3 +62,18 @@ Ik heb vandaag bij Julian, Thomas en Ahlam gezeten. Ik heb Julian geholpen met h
 
 ## ➯ Woensdag 12-11-25
 Vandaag heb ik bij Sven, Tin (en hun twee andere groepsgenoten) en Emre geholpen met de styleguide. Het opzetten hiervan, oplossen van een paar mergeconflicten, de code conventies met hun doorgenomen. En daarna geholpen met het linken van de gezamenlijke stylesheet aan hun eigen project. 
+
+*** 
+
+## ➯ Woensdag 19-11-25
+Ik heb vandaag geholpen met het maken en stylen van formulieren in de stylesheet van de opdrachtgever. 
+
+*** 
+
+## ➯ Vrijdag 28-11-25
+Ik heb de eerste jaars (Gijs, Tjeerd en Thomas) vandaag geholpen bij de retrospect. Ze moesten een vragenlijst invullen en hier snapte ze af en toe dingen niet van die ik kon uitleggen. Ik heb met Gijs ervoor gezorgd dat hij zijn bewijslast goed heeft gemapt in portflow. Aan het einde van de dag kwam Tin ook aan mij vragen of ik hem daar bij wilde helpen en toen heeft Tjeerd meegekeken. 
+
+*** 
+
+## ➯ Vrijdag 5-12-25
+Ik heb vandaag [Thomas](https://github.com/ThomasSeisveld/fix-the-flow-interactive-website/issues/15) en [Sven](https://github.com/Svenvandijk22/fix-the-flow-interactive-website/issues/14) geholpen met hun Code en design review op 4 mede studenten. Ook heb ik hun allebij een review gegeven. Sidney kwam vragen of ik even met hem wilde meekijken bij Kevin. Zijn CSS en JS laden lokaal wel in maar niet op de live website. Ik kwam erachter dat dat kwam door een spatie in een map naam. Die mocht ik niet aanpassen omdat het allemaal in zn onedrive stond en de opslag hiervan vol was dus de aanpassing niet opgeslagen kon worden. Ik heb alle repo's van github lokaal op zijn laptop gezet en hierna mocht de naam wel aangepast worden. Toen alle linkjes afgelopen om daar ook alle namen aan te passen. Hij had bij het linken ook niet goed aangegeven in welke map het stond met de ./ of ../ dus dit heb ik ook meteen opgelost. Tijdens het oplossen heb ik hem steeds uitgelegd waarom het belangrijk is om het op deze manier te doen. Daarna werkte de CSS en JS wel op de live website. Vamaf commit message [a5bf791](https://github.com/toasterbath0758/fix-the-flow-interactive-website/commit/a5bf7912e69b0e89159bb7d037669923ecf1b001) tot [278c3fd](https://github.com/toasterbath0758/fix-the-flow-interactive-website/commit/278c3fd390282a674895d5a36572d1a314f19fce).
