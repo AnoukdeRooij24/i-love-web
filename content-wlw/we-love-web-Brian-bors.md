@@ -36,8 +36,11 @@
 
 ## Criteria 1.3.1
 - Meest afgekeurd
-- als er een relatie met een verschil te zien is op een website moet dit in de code ook duidelijk zijn
-- 
+- Percievable
+- Als er een relatie met een verschil te zien is op een website moet dit in de code ook duidelijk zijn
+- Over het algemeen kan je dit voor elkaar krijgen door goeie HTML te schrijven, dan leg je de connecties automatisch zonder CSS te gebruiken
 
 ## Criteria 4.1.2
 - Meest afgekeurd
+- Robust
+- een interactief ding op de website heeft altijd een naam en een rol nodig
