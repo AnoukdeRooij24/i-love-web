@@ -10,3 +10,22 @@ In de trein heb ik een ontwerp gemaakt in de Frameless huisstijl om mijn stage d
 ## Dinsdag 10-3-2026
 In de standup heb ik aangegeven dat ik gister met Robbert heb gezeten om een plan te maken voor de komende weken en dat ik daar dus mee bezig ben. Daarna ben ik verder gegaan met overzicht creeeren in het projectboard van mijn stage repo van frameless. Ik heb een eigen stage repo op mijn eigen github account aangemaakt en ben hier ook een projectboard begonnen, maar meer om mijn bewijslast in op te kunnen slaan en te kijken wat ik nog extra moet aanvullen. Dan hou ik mijn andere projectboard meer voor taken om uit te voeren. <br>
 Daarna heb ik de laatste tokens toegevoegd aan de tokens studio in figma en heb ik dit weer naar github gepushed. En daarbij de bijpassende issue gedocumenteerd en gesloten. Ik heb gezorgd dat mijn issues overal weer up to date zijn. Daarna heb ik een kleine uitleg gekregen van Robbert over hoe ik het fdnd thema in een repo kan krijgen, in de terminal hebben we hem via 'git clone ...' gecloned naar de github map. Vanuit daar hebben we 'pnpm install' en 'pnpm run build' op de ma-design-tokens map gedaan. Daar kan ik nu de json in aanpassen en dan zie ik als het goed is de css veranderen. 
+
+## Woensdag 11-3-2026
+Ik heb de standup in de tein meegedaan door een mega vertraging op het spoor. Ondertussen ben ik begonnen met het lezen van een artikel die bart heeft geschreven [The CSS selection](https://www.projectwallace.com/the-css-selection/2026). Ik ben tot 'rulesets' gekomen. Ik heb een kleine uitleg gekregen van Robbert over pnpm en wat bronnen om door te lezen. Daarna heb ik de iTerm terminal geinstalleerd. Via deze terminal heb ik daarna mijn stage repo naar mijn computer gecloned met `git clone (SSH url)`. Daarvoor moesten we eerst een [SSH key instellen](https://developer.1password.com/docs/ssh/get-started/) op [github](https://github.com/settings/keys) en 1Password zodat ik die met mijn vingerprint kan accepteren. (Ook aangezien mijn stage repo een prive repo is op het frameless github account.) <br>
+In de terminal kan je met verschillende commands dingen doen:
+- `Command + backtick` = terminal openen / sluiten
+- `Command + T` = nieuwe tab openen 
+- `pnpm add` = inplaats van `npm install`
+- `cd ..` = naar de home map navigeren
+- `git clone (SSH url uit github)` = repo clonen naar je computer 
+- `git log` = de commits en andere info in de terminal laten zien
+- `git pull` = de info in de github repo syncen met de info op je computer
+- `git fetch` = de info wel ophalen maar niet meteen syncen met je computer
+- `git add package.json README.md` = bestanden aanspreken die je wilt pushen in dit geval package.json en de readme
+- `git commit -m 'Readme and package.json'` = de commit message tussen de '' 
+- `git push` = de commit pushen naar github
+- `pnpm init` = ? 
+- `code .` = open huidige map? of nieuwe map
+- `code .git/config` = open de config file in de .git map in vscode 
+- `pnpm add --save-dev` = iets toevoegen in de dependency map
