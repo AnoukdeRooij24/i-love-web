@@ -29,3 +29,8 @@ In de terminal kan je met verschillende commands dingen doen:
 - `code .` = open huidige map? of nieuwe map
 - `code .git/config` = open de config file in de .git map in vscode 
 - `pnpm add --save-dev` = iets toevoegen in de dependency map
+
+## Donderdag 12-3-2026
+De standup van vanochtend heb ik vanaf school gedaan en heb ik aangegeven wat ik ga doen vandaag. Ik heb vandaag de style-dictionary geinstalleerd in mijn stage repo, de vervolg stappen heb ik ook geprobeerd maar daar kwam ik nog niet helemaal uit. Ik heb ook onderzoek gedaan naar de terminal en wat handige commands opgeschreven om te hergebruiken. 
+
+## Vrijdag 
