@@ -1,0 +1,17 @@
+
+- `Command + backtick` = iTerm openen / sluiten
+- `Control + backtick` = vsCode terminal openen / sluiten
+- `Command + T` = nieuwe tab openen 
+- `pnpm add` = inplaats van `npm install`
+- `cd ..` = naar de home map navigeren
+- `git clone (SSH url uit github)` = repo clonen naar je computer 
+- `git log` = de commits en andere info in de terminal laten zien
+- `git pull` = de info in de github repo syncen met de info op je computer
+- `git fetch` = de info wel ophalen maar niet meteen syncen met je computer
+- `git add package.json README.md` = bestanden aanspreken die je wilt pushen in dit geval package.json en de readme
+- `git commit -m 'Readme and package.json'` = de commit message tussen de '' 
+- `git push` = de commit pushen naar github
+- `pnpm init` = ? 
+- `code .` = open huidige map? of nieuwe map
+- `code .git/config` = open de config file in de .git map in vscode 
+- `pnpm add --save-dev` = iets toevoegen in de dependency map

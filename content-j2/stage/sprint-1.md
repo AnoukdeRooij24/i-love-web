@@ -14,7 +14,7 @@ Daarna heb ik de laatste tokens toegevoegd aan de tokens studio in figma en heb 
 ## Woensdag 11-3-2026
 Ik heb de standup in de tein meegedaan door een mega vertraging op het spoor. Ondertussen ben ik begonnen met het lezen van een artikel die bart heeft geschreven [The CSS selection](https://www.projectwallace.com/the-css-selection/2026). Ik ben tot 'rulesets' gekomen. Ik heb een kleine uitleg gekregen van Robbert over pnpm en wat bronnen om door te lezen. Daarna heb ik de iTerm terminal geinstalleerd. Via deze terminal heb ik daarna mijn stage repo naar mijn computer gecloned met `git clone (SSH url)`. Daarvoor moesten we eerst een [SSH key instellen](https://developer.1password.com/docs/ssh/get-started/) op [github](https://github.com/settings/keys) en 1Password zodat ik die met mijn vingerprint kan accepteren. (Ook aangezien mijn stage repo een prive repo is op het frameless github account.) <br>
 In de terminal kan je met verschillende commands dingen doen:
-- `Command + backtick` = terminal openen / sluiten
+- `Command + backtick` = iTerm openen / sluiten
 - `Command + T` = nieuwe tab openen 
 - `pnpm add` = inplaats van `npm install`
 - `cd ..` = naar de home map navigeren
@@ -41,7 +41,7 @@ In de standup had ik aangegeven dat ik verder ga met de style dictionary. Daar w
 ## Maandag 16-3-2026
 In de standup van vanochtend heb ik gezecht dat ik vandaag verder ga met de style dictionary en dat ik me vanochtend heb aangemeld voor de Frontend masters courses en dat ik ga kijken wat dat inhoud en of er wat interessants tussen zit om te doen. Ik vroeg aan Robbert welke technologiëen nou echt handig zijn om op te pakken en hij zei: 
 
-### Aangemeld voor:
+#### Aangemeld voor:
 - GitHub
 - Git 
 - GitHub actions
@@ -53,7 +53,7 @@ In de standup van vanochtend heb ik gezecht dat ik vandaag verder ga met de styl
 - Vitest
 - (css + JS)
 
-### Interessant voor de toekomst:
+#### Interessant voor de toekomst:
 - Docker
 - RxJS
 - Storybook
@@ -64,4 +64,7 @@ Ik heb in de themes repo van Frameless de ma tokens/css variabelen aangepast naa
 - Ik heb in de `style-dictionary.mjs` ook weer de oude `tokens.json` aangepast naar de `fdnd.tokens.json` bij de `let sd = new StyleDictionary({ source: ['src/fdnd.tokens.json', 'src/*.fdnd.tokens.json'] });`
 - Daarna heb ik in de `style-dictionary-config.mjs` ook de oude `tokens.json` aangepast naar de `fdnd.tokens.json` bij de `  const sd = new StyleDictionary({ source: ['figma/**/*.fdnd.tokens.json'] });`
 - Met `pnpm ruin build` in de terminal heb ik de veranderingen doorgevoerd naar het `variables.css`, hierin zijn nu de ma kleur variabelen veranderd naar de fdnd kleuren
+- In de terminal vanuit het hoogste niveau themes met `cd packages/storybook` naar het storybook mapje navigeren, dan in de terminal `pnpm run storybook` om lokaal een storybook te runnen
 
+Verder heb ik acces nodig om een nieuwe branch aan te maken en te kunnnen pushen naar de themes repo dus dat heb ik gelijk geregeld met Robbert. Nu heb ik een nieuwe branch aangemaakt alleen zijn mijn commits beland op de main branch denk ik, dus ik kan nu alsnog geen pullrequest aanmaken. <br>
+Ik ben in de frontend masters course begonnen met een git course. De 'Git In-depth' van Nina Zakharenko. Omdat ik veel git dingen nog kan leren. Ik ben ongeveer 50 minuten bezig geweest hiermee. Er is ook een [frontend masters blog](https://frontendmasters.com/blog/) die ik in de gaten kan houden de komende weken.
