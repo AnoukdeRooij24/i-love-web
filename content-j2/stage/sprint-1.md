@@ -33,4 +33,7 @@ In de terminal kan je met verschillende commands dingen doen:
 ## Donderdag 12-3-2026
 De standup van vanochtend heb ik vanaf school gedaan en heb ik aangegeven wat ik ga doen vandaag. Ik heb vandaag de style-dictionary geinstalleerd in mijn stage repo, de vervolg stappen heb ik ook geprobeerd maar daar kwam ik nog niet helemaal uit. Ik heb ook onderzoek gedaan naar de terminal en wat handige commands opgeschreven om te hergebruiken. 
 
-## Vrijdag 
+## Vrijdag 13-3-2026
+In de standup had ik aangegeven dat ik verder ga met de style dictionary. Daar was ik mee begonnen en toen ging ik om 11.00 weer in de meeting met het kernteam van de utrecht design system. Daarin werden wat vragen besproken en heeft Robbert aangegeven dat ik met het zelfde bezig ben als een van hun collega's. Volgende week vrijdag kan ik daar iets over presenteren. Verder heb ik geprobeerd de style dictionary aan de praat te krijgen maar ik kreeg steeds errors. Uiteindelijk kwam ik erachter dat het json bestand waar de tokens instaan niet gelezen kan worden door de code die ik geschreven heb. Ik was aan het uitzoeken hoe ik dat op kan lossen maar ik kon niet zo snel een nette oplossing vinden. 
+
+
