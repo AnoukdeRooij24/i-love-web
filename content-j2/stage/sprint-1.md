@@ -36,4 +36,32 @@ De standup van vanochtend heb ik vanaf school gedaan en heb ik aangegeven wat ik
 ## Vrijdag 13-3-2026
 In de standup had ik aangegeven dat ik verder ga met de style dictionary. Daar was ik mee begonnen en toen ging ik om 11.00 weer in de meeting met het kernteam van de utrecht design system. Daarin werden wat vragen besproken en heeft Robbert aangegeven dat ik met het zelfde bezig ben als een van hun collega's. Volgende week vrijdag kan ik daar iets over presenteren. Verder heb ik geprobeerd de style dictionary aan de praat te krijgen maar ik kreeg steeds errors. Uiteindelijk kwam ik erachter dat het json bestand waar de tokens instaan niet gelezen kan worden door de code die ik geschreven heb. Ik was aan het uitzoeken hoe ik dat op kan lossen maar ik kon niet zo snel een nette oplossing vinden. 
 
+***
+
+## Maandag 16-3-2026
+In de standup van vanochtend heb ik gezecht dat ik vandaag verder ga met de style dictionary en dat ik me vanochtend heb aangemeld voor de Frontend masters courses en dat ik ga kijken wat dat inhoud en of er wat interessants tussen zit om te doen. Ik vroeg aan Robbert welke technologiëen nou echt handig zijn om op te pakken en hij zei: 
+
+### Aangemeld voor:
+- GitHub
+- Git 
+- GitHub actions
+- Node.js
+- npm
+- Playwright
+- Typescript 
+- Vite
+- Vitest
+- (css + JS)
+
+### Interessant voor de toekomst:
+- Docker
+- RxJS
+- Storybook
+
+Ik heb in de themes repo van Frameless de ma tokens/css variabelen aangepast naar de fdnd tokens. 
+- Ik heb het `fdnd.tokens.json` bestand toegevoegd in het src mapje. 
+- Ik heb daarna in het `style-dictionary-config.js` bestand de oude `tokens.json` aangepast naar de `fdnd.tokens.json` in de `const createConfig = ({ source = ['src/**/fdnd.tokens.json', 'src/**/*.fdnd.tokens.json'] })` 
+- Ik heb in de `style-dictionary.mjs` ook weer de oude `tokens.json` aangepast naar de `fdnd.tokens.json` bij de `let sd = new StyleDictionary({ source: ['src/fdnd.tokens.json', 'src/*.fdnd.tokens.json'] });`
+- Daarna heb ik in de `style-dictionary-config.mjs` ook de oude `tokens.json` aangepast naar de `fdnd.tokens.json` bij de `  const sd = new StyleDictionary({ source: ['figma/**/*.fdnd.tokens.json'] });`
+- Met `pnpm ruin build` in de terminal heb ik de veranderingen doorgevoerd naar het `variables.css`, hierin zijn nu de ma kleur variabelen veranderd naar de fdnd kleuren
 
