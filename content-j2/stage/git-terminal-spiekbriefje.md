@@ -14,6 +14,11 @@
 - `git add package.json README.md` = bestanden aanspreken die je wilt pushen in dit geval package.json en de readme
 - `git commit -m 'Readme and package.json'` = de commit message tussen de ' ' 
 - `git push` = de commit pushen naar github
+- `git checkout` = de laatste commit van een branch binnenhalen in een bepaald bestand (bijv. git checkout origin/main ../basis-design-tokens/style-dictionary.config.mjs)
+- `git commit —amend` = laatste commit message aanpassen
+- `git reflog` = alle geschiedenis op je computer bekijken die je op deze repo hebt gedaan
+- `git commit —fixup 606c914c9ed63e11a742d54d4670f7a1166ca542` = een commit aan een oudere commit koppelen dit kan via de commit hash of de commit naam
+- `git rebase —interactive origin/main` = het reorganiseren en squashen van commits op een branch
 
 ## pnpm
 - `pnpm add` = inplaats van npm install
