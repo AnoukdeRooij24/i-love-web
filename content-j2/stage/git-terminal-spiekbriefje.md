@@ -19,6 +19,11 @@
 - `git reflog` = alle geschiedenis op je computer bekijken die je op deze repo hebt gedaan
 - `git commit —fixup 606c914c9ed63e11a742d54d4670f7a1166ca542` = een commit aan een oudere commit koppelen dit kan via de commit hash of de commit naam
 - `git rebase —interactive origin/main` = het reorganiseren en squashen van commits op een branch
+-`git status` = overzichtje van de staged changes (rood is niet toegevoegd aan de `git commit` en groen is wel toegevoegd aan de `git commit`)
+- `git add` / `git add package.json README.md` = hierachter kan je zetten wat je wilt toevoegen, je kan de rode paths kopieeren uit het git status overzicht of de bestanden direct aanspreken zoals tweede voorbeeld 
+- `git add .` = alle veranderde bestanden toevoegen aan je commit, gebruik dit voorzichtig en doe het liever per stuk 
+- `git commit -m ' blabla ' --no-verify` = zo kan je altijd pushen als back-up want met de `-no-verify` ontwijk je de lint testen 
+- `git reset HEAD~1` = reset je code terug naar de vorige commit 
 
 ## pnpm
 - `pnpm add` = inplaats van npm install
