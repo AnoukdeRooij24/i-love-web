@@ -14,6 +14,7 @@ const files1 = await readdir('content-j1')
 const files2 = await readdir('content-j2')
 const files3 = await readdir('content-wlw')
 const files4 = await readdir('content-events')
+const files5 = await readdir('stage')
 
 // Maak een nieuwe Express applicatie aan, waarin we de server configureren
 const app = express()
@@ -60,6 +61,18 @@ app.get('/learning-journal-2', async function(request, response){
         const fileContents2 = await readFile('content-j2/' + request.params.slug + '.md', { encoding: 'utf8' })
         const markedUpFileContents2 = marked.parse(fileContents2)
         response.render('artikel-2.liquid', {fileContents2: markedUpFileContents2})
+    })
+
+// STAGE
+app.get('/stage', async function(request, response){
+    response.render('stage.liquid', {files5: files5})
+})
+
+    app.get('/stage/:slug', async function (request, response) {
+        // console.log(request.params.slug)
+        const fileContents5 = await readFile('stage/' + request.params.slug + '.md', { encoding: 'utf8' })
+        const markedUpFileContents5 = marked.parse(fileContents5)
+        response.render('stage-detail.liquid', {fileContents5: markedUpFileContents5})
     })
 
 // WE LOVE WEB
