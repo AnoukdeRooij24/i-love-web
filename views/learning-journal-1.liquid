@@ -11,7 +11,7 @@
             <a class="back" href="/">← Back to home</a>
             <article class="note-box">
                 {% for file in files1 %}
-                    <a class="notes" href="/learning-journal-1/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 | capitalize }} </a>
+                    <a class="notes" href="/learning-journal-1/{{ file|slice:0,-3 }}"> {{ file|slice:0,-3 | capitalize | replace: "-", " "  }} </a>
                 {% endfor %}  
             </article>
         </section>
