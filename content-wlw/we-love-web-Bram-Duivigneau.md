@@ -50,7 +50,7 @@
 
 ## Braille screenreader
 - Aan de hand van wat er op het laptop screen staat komen er puntjes op een braille device waardoor hij de puntjes kan lezen
-![braille screenreader image](image.png)
+![braille screenreader image](../public/assets/image.png)
 
 ## Coderen met screenreader
 - In vscode zitten allemaal accessebility functies die je krijgt als je vscode opstart met screenreader aan
