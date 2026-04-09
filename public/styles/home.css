@@ -7,16 +7,16 @@
     background-clip: text;
     color: transparent;
     background-size: contain;
+    transition: .5s;
+
     /* filter: drop-shadow(0 0 0.75rem black); */
 
     @media (width > 500px) {
         font-size: 5em;
-        transition: .5s;
     }
 
     @media (width > 1100px) {
-        font-size: 9em;
-        transition: .5s;
+        font-size: 8em;
     }
 
 }
@@ -52,9 +52,11 @@
             color: var(--accent-green);
         }
 
-        &:hover::after {
-            transform: scaleX(1);
-            transform-origin: left;
+        @media (prefers-reduced-motion: no-preference) {
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: left;
+            }
         }
     }
 
