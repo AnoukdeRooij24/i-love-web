@@ -24,7 +24,7 @@
 - [.gitignore](https://git-scm.com/docs/gitignore) docs
 
 ## Bronnen
-- [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics)** mdn
+- [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics) mdn
 - [max-inline-size](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-inline-size) mdn
 - [inline-size](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/inline-size) mdn
 - [word-break](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/word-break) mdn

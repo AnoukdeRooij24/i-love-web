@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 1em;
     height: 95vh;
-
+    font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     background-color: var(--accent-beige);
 }
 
