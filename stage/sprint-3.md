@@ -14,7 +14,7 @@ Robberts uitleg:
         <p class="fdnd-footer__text">© 2024 Anouk. All rights reserved.</p>
     </div>
     </footer>
-    
+
     <footer class="fdnd-footer">
     <div class="fdnd-footer__content">
         <div class="rhc-footer-design"></div>
@@ -36,3 +36,7 @@ Robberts uitleg:
 ```
 
 Samen met Robbert heb ik verder gekeken hoe het kan dat de json en de css bestanden niet met elkaar kletsen, hij begreep er ook niks van. Uiteindelijk kwamen we erachter dat de darkmode tokens de lightmode tokens overschrijven. We hebben gekeken hoe we dit uit kunnen zetten, door te spieken bij de [figma.tokens.json](https://github.com/nl-design-system/rijkshuisstijl-community/blob/main/proprietary/design-tokens/figma/figma.tokens.json#L9201) van de rijkshuisstijl community (onderaan het bestand) omdat ze meerdere kleuren themas hebben waar ze tussen kunnen wisselen ([hier een voorbeeld](https://rijkshuisstijl-community.vercel.app/?path=/docs/rhc-templates-homepage--docs&globals=theme:Uitvoerend+-+Paars) waar je de kleur aan kan passen bij: uitvoerend - paars theme). En in de [build](https://github.com/nl-design-system/rijkshuisstijl-community/blob/main/proprietary/design-tokens/build.mts#L14) die ze hebben om te kijken hoe ze dan zorgen dat de kleuren elkaar niet constant overschrijven maar alleen wanneer ze dat zeggen. En zijn we erachter gekomen dat je met [dit scriptje](https://www.npmjs.com/package/@tokens-studio/sd-transforms?activeTab=readme) kan zeggen dat hij iets niet moet overschrijven, hier gaan we morgen verder naar kijken. Voor nu hebben we de dark mode uit de `tokenSetOrder` gehaald in de `fdnd.tokens.json`. 
+
+## Donderdag 9-4-2026
+In de standup vanochtend heb ik aangegeven dat ik verder ga met het maken van een darkmode voor het npm pakketje wat ik van de fdnd tokens heb gemaakt. En dat ik morgen mn assessment heb en ik me daar vast op voor ga bereiden. Ik heb wat linkjes bijeen gezocht in mn notities zodat ik dat snel kan laten zien en erbij gezet waar de linkjes voor staan en wat ik er aan heb gedaan. Ik heb ook de documentatie in mn i love web verder geupdate, de dingen die ik in een slack kanaal heb gedocumenteerd ook overgezet. Daarna ben ik nog even met css gaan spelen in code pen pm te testen en daarna het toepassen op mn i love web. (h1 van de stage pagina en de hover op de linkjes van home) 
+Met Robbert heb ik besproken wat ik heb voorbereid voor mn assessment. We waren allebij te gaar na een lange dag om nog naar de dark mode te kijken dus dit gaan we volgende week doen. Robbert vroeg of ik het interessant vind om wat over style lint te leren, hij heeft me een aantal bronnen gegeven om mee aan de slag te gaan. Je kan daarmee een toevoeging op je config.json maken waarin je de css (die je normaal eigenlijk niet wilt linten) wel kan aanpassen zodat de syntax errors eruit zijn. Hij zei dat het leuk is om dat aan mijn /stage-anouk repo toe te voegen. Dus ik ben begonnen met de bronnen bekijken. 

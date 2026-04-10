@@ -22,6 +22,8 @@
 - [Style Dictionary Transforms for Tokens Studio](https://www.npmjs.com/package/@tokens-studio/sd-transforms) docs
 - [.dot files](https://github.com/mathiasbynens/dotfiles/blob/main/.bash_profile) repo
 - [.gitignore](https://git-scm.com/docs/gitignore) docs
+- [.gitignore](https://github.com/github/gitignore) github repo
+- [fdnd package](https://github.com/fdnd/components?tab=readme-ov-file#contribute) documentatie
 
 ## Bronnen
 - [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics) mdn
@@ -30,6 +32,8 @@
 - [word-break](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/word-break) mdn
 - [fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset) mdn
 - [vw transitions](https://css-tricks.com/typecasting-and-viewport-transitions-in-css-with-tanatan2/) CSS tricks
+- [no wifi game](https://codepen.io/t_afif/pen/xbEWzwP?editors=1100) codepen
 
 ## Handige websites
 - [Accessible color pallete](https://accessiblepalette.com/)
+- [Contrast checker](https://polypane.app/color-contrast/#fg=%23107db5&bg=%23fff&level=aa&format=rgb&algo=WCAG2&filter=none) Polypane

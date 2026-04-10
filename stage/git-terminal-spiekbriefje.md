@@ -29,6 +29,14 @@
 * `Q` = quit de command
 * `git branch -m feat/flodecision-basepath-fix `= je branch renamen naar in dit geval feat/flodecision-basepath-fix
 * `git config --global push.default current` = standaard naar de branch met dezelfde naam pushen 
+* `git rm ' '` = files via git verwijderen, dit is handiger dan met de hand want zo weet je zeker dat git ook weet dat die file weg is
+* `git branch` = alle branches in een repo bekijken
+* `git switch ' '` = switchen naar een andere branch
+* `git merge ' '` = zorg dat je in de branch zit waar je naartoe wilt mergen en noem de naam van de branch die je erin wilt mergen
+* `git merge --abort` = stop met de merge uitvoeren
+* `git mv` = het verplaatsen van een bestand naar een andere plek
+* `git reset --soft` = verwijderd de commit maar houd de veranderingen gestaged
+* `git reset --hard` = verwijderd de commit en verwijderd ook alle veranderingen
 
 ## pnpm
 - `pnpm add` = inplaats van npm install
