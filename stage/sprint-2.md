@@ -29,6 +29,8 @@ Daarna heb ik vooral wat orde in de chaos gemaakt op mijn laptop en alle bronnen
 ## Vrijdag 27-3-2026
 In de standup van vanochtend heb ik gezegd dat ik aan portflow ga vandaag en dat ik naar de we love web waar Tessa ook naar toe komt ga. In de middag heb ik de fdnd terugkom dag. In de ochtend ben ik bezig geweest aan portflow. In de middag ben ik naar de We love web van [Bram Duivigneau](../../content-wlw/we-love-web-Bram-Duivigneau.md) geweest. En hebben we bij de terugkom dag het gebuik van AI in onze stagebedrijven besproken en we hebben samen besproken hoe onze portflow eruit ziet en elkaar geholpen met het vinden van goeie bewijslast.
 
+***
+
 ## Maandag 30-3-2026
 In de standup heb ik aangegeven dat ik dit weekend een deadline had voor school en dat ik daar druk mee bezig ben geweest. Ook heb ik gezegd dat ik vandaag een nieuw plan ga maken voor de komende week(/weken). 
 De ochtend heb ik vooral besteed aan het bij een zoeken van bronnen die ik heb gelezen en in notion een handig bestand maken waar alle linkjes in staan en ik heb het per categorie gefilterd zodat ik het makkelijker terug kan vinden later. <br>

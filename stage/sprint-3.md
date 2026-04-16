@@ -44,6 +44,8 @@ Met Robbert heb ik besproken wat ik heb voorbereid voor mn assessment. We waren 
 ## Vrijdag 10-4-2026
 De standup heb ik vanochtend gemist omdat mijn assessment ineens vervroegd was. Mn assessment ging super goed, ik heb 22 van de 24 punten gehaald en dat is omgerekend een 9. In de middag heb ik een style lint toegevoegd aan mn /stage-anouk repo. Ik heb het voorbeeld van Robbert overgenomen en het geinstalleerd als een pnpm pakketje. 
 
+***
+
 ## Maandag 13-4-2026
 Tijdens de standup heb ik verteld dat mijn assessment van vrijdag heel goed ging en dat ik de style lint heb toegevoegd aan mijn /stage-repo om te oefenen. En ik heb verteld dat ik vandaag verder ga met het toevoegen van de darkmode aan mijn fdnd thema van mijn npm pakketje. 
 Ik heb meegedaan aan de retro vanf frameless, dit was een team brede retro dus het ging over de algemeene samenwerking en niet specifiek uit een project. Eerst deden we een ijsbreker die Yolijn heeft verzonnen: <br>
@@ -55,3 +57,24 @@ Ziek.
 
 ## Woensdag 15-4-2026
 In de standup aangegeven dat ik ziek was dus vandaag weer ga op pakken waar ik maandag was gebleven. Dus dat ik verder ga met de darkmode aan de fdnd tokens toevoegen. Ik heb alle tokens in figma toegevoegd en daarna de json naar github gepushed. Daar vanuit heb ik de css aangepast, de lightmode is nu overschreven door de nieuw toegevoegde darkmode tokens. Dat wil ik morgen graag samen met Robbert uitzoeken. Ik heb een aantal extra test buttons gemaakt op de test pagina zodat ik kan zien wat er gebeurd als de dark/light mode switchen. 
+
+## Donderdag 
+Bij de standup vandaag aangegeven dat ik verder ga met het uitzoeken van de js van de darkmode waar ik gister mee bezig was, en dat ik ga kijken of ik de style lint nog verder kan uitbreiden. Ik ben in de ochtend gaan spelen met een [codepen](https://codepen.io/anouk24/pen/LERqdxV?editors=1100), want ik had een idee wat ik al even uit wilde werken, namelijk een checkbox die als je het aanvinkt gehighlight wordt dus dat heb ik uitgewerkt. Robbert kwam even bij mij buurten of ik eruit kwam met de darkmode. We hebben een scriptje geschreven waarin de darkmode uit een van de json bestanden wordt verwijderd en hij een duplicate maakt waarin de darkmode blijft staan. Het scriptje werkt wel maar wat elke regel precies doet weet ik nog niet. Ik kreeg de taak om verder uit te zoeken of de light dark mode nu met de hand werkt en dat doet het. Ik heb een `@media (prefers-color-scheme: dark) {}` om ALLE darkmode css variabelen gezet en hetzelfde voor de lightmode. Ook moest ik het nieuwe bestand uit het darkmode mapje linken in de HTML. Ik heb ook een divje gezet met de classname voor kleuren, die als het goed is gaan wisselen op dark of light mode. Dat doet het al wel, maar de dark mode variabelen staan in de lightmode css file en andersom. Ik denk dat het in het scriptje verkeerd is gezegd want in de json staan de tokens nog wel goed. In het volgende scriptje verwijder je namenlijk juist de darkmode bij de darkmode.
+```
+    const colorSchemeDarkPreprocessor = {
+        name: "color-scheme-dark", 
+        preprocessor(tokensJSON) {
+            removeDarkMode(tokensJSON);
+            return tokensJSON;
+        },
+    };
+```
+De oplossing hiervan hebben we voor nu even heel simpel gehouden, morgen kan ik het beter refactoren. Voor nu heb ik de lightmode tokens naar de darkmode map verwezen en andersom zodat het visueel klopt op de test website. Ik kreeg ook nog dit stukje code van Robbert: 
+``` 
+// zet er op de build bij dat het darkmode css bestand binnen een media query staat, zodat deze alleen wordt toegepast wanneer de gebruiker een voorkeur voor een donker kleurenschema heeft ingesteld
+let css = await readFile("./dist/dark-mode/variables.css", "utf-8");
+css = `@media (prefers-color-scheme: dark) {\n${css}\n}`;
+await writeFile("./dist/dark-mode/variables.css", css);
+```
+Dit stukje code zorgt ervoor dat de `@media (prefers-color-scheme: dark) {}` automatisch bij de build wordt neergezet. Als je dit elke keer met de hand doet dan wordt het bij elke build overschreven. Ik heb comments gezet in de code die we vandaag hebben geschreven zodat ik weet wat waarvoor is en comments erbij gezet wat ik nog moet refactoren. 
+Ook heb ik aan Yolijn vermeld dat ik er volgende week vrijdag middag niet ben omdat stichting accessibility dan langs komt op school en Justus het leuk vind als ik daarbij ben. Yolijn is er benieuwd wat ze komen vertellen omdat zij ook met hun samenwerken. 
