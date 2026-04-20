@@ -51,3 +51,7 @@
 - We need easier ways to publish on the web 
 
 ## ➯ Sanne Peters 
+- A kinder and gentler web - how everything is going to shit, and how we can make it better
+- The web is kind of forced op on you, using the web should be optional 
+- The web should be easy, safe and plesant to use
+- There are other ways to expand your world view, read a book or watch a movie of things you know noting about
