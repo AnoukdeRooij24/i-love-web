@@ -5,7 +5,7 @@
     - `typeof “42”` returns `"string"`
     - `typeof 42` returns `"number"`
     - `typeof true` returns `“boolean”`
-- primitive types = string, number, boolean, undefined & null
+- Primitive types = string, number, boolean, undefined & null
 - Objects = al het andere
 - `number` = zonder quotes een getal of infinity
 - `string` = textual pieces of data:
@@ -33,12 +33,12 @@
 - `.indexOf` = de index (positie getal) van een bepaald karakter
     - als er meerdere dezelfde karakters in een string staan dan returnt alleen de eerste die hij tegenkomt
     - Een -1 geeft aan dat die karakter niet in de string staat
-    - ! het is hoofdletter gevoelig
+    - Hoofdletter gevoelig!!!
     - `"boe".indexOf("e")` returns `2`
     - `"boe".indexOf("h")` returns `-1`
-    - .indexOf werkt ook als je van een substring de index wilt weten:
-    - `"kiekenboe".indexOf("boe")` returns `7` (vanaf dat punt begint de substring, eind positie krijg je niet)
-    - `"kiekenboe".indexOf("schrik")` returns `-1`
+    - `.indexOf` werkt ook als je van een substring de index wilt weten:
+        - `"kiekenboe".indexOf("boe")` returns `7` (vanaf dat punt begint de substring, eind positie krijg je niet)
+        - `"kiekenboe".indexOf("schrik")` returns `-1`
 - `.includes` = heeft de string een bepaald stukje string in zich bestaande uit specifieke karakters
     - returns met een boolean (true or false)
     - `"kiekenboe".includes("boe")` returns `true` (ja dit stukje string zit in de grote string)
