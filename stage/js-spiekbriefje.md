@@ -1,0 +1,55 @@
+# JavaScript spiekbriefje
+
+## Values and data types
+- `typeof` = kan in de console aangeven als je het voor iets zet wat voor code het is:
+    - `typeof “42”` returns `"string"`
+    - `typeof 42` returns `"number"`
+    - `typeof true` returns `“boolean”`
+- primitive types = string, number, boolean, undefined & null
+- Objects = al het andere
+- `number` = zonder quotes een getal of infinity
+- `string` = textual pieces of data:
+    - Dit kunnen letters, cijfers, emojis etc. zijn tussen de volgende quotes:
+    - `“dubbel quotes”`
+    - `‘single quotes’`
+    - ``backticks``
+- `boolean` = returns `true` or `false`
+- `undefined` = perongeluk niks ingezet maar er had wel wat in moeten staan
+- `null` = expres niks ingezet
+
+### Strings:
+- `.length` = vertelt hoeveel iets er in iets zit
+    - vaak een getal van een aantal karakters in een string
+    - de telling van de nummers begint bij 0
+    - een spatie telt ook als een karakter
+    - `""` = een empty string
+    - `" ".length` returns 1 (spatie)
+    - `"boe".length` returns `3`
+    - `“some string"` returns `11` (spatie)
+- `index` = the number given to each thing inside a more complex thing when that thing is ordered
+    - door de `[ ]` met een getal erin achter een string te plakken krijg je het karakter terug wat op dat getal in de string staat
+    - `"boe"[0]` returns `"b"`
+    - `"boe"[2]` returns `"e"` (telling begint bij 0)
+- `.indexOf` = de index (positie getal) van een bepaald karakter
+    - als er meerdere dezelfde karakters in een string staan dan returnt alleen de eerste die hij tegenkomt
+    - Een -1 geeft aan dat die karakter niet in de string staat
+    - ! het is hoofdletter gevoelig
+    - `"boe".indexOf("e")` returns `2`
+    - `"boe".indexOf("h")` returns `-1`
+    - .indexOf werkt ook als je van een substring de index wilt weten:
+    - `"kiekenboe".indexOf("boe")` returns `7` (vanaf dat punt begint de substring, eind positie krijg je niet)
+    - `"kiekenboe".indexOf("schrik")` returns `-1`
+- `.includes` = heeft de string een bepaald stukje string in zich bestaande uit specifieke karakters
+    - returns met een boolean (true or false)
+    - `"kiekenboe".includes("boe")` returns `true` (ja dit stukje string zit in de grote string)
+    - `"kiekenboe".includes("schrik")` returns `false` (nee zit er niet in)
+- `.startsWith` = start een string met bepaalde karakters
+    - returns met een boolean (true or false)
+    - `"kiekenboe".startsWith("kiek")` returns `true`
+    - `"kiekenboe".startsWith("boe")` returns `false`
+- `+` = telt twee strings bij elkaar op
+    - `"kieken" + "boe"` returns `"kiekenboe"`
+- `.toLowerCase()` = maakt alle karakters in de string waar je dit achter zet lower case
+    - `"KIEKENBOE".toLowerCase()` returns `"kiekenboe"`
+- `.toUpperCase()` = maakt alle karakters in de string waar je dit achter zet upper case
+    - `"kiekenboe".toUpperCase()` returns `"KIEKENBOE"`
