@@ -24,6 +24,9 @@
 - [.gitignore](https://git-scm.com/docs/gitignore) docs
 - [.gitignore](https://github.com/github/gitignore) github repo
 - [fdnd package](https://github.com/fdnd/components?tab=readme-ov-file#contribute) documentatie
+- [colorjs.io](https://colorjs.io/)
+- [vite](https://vite.dev/guide/) docs
+- [Lit](https://lit.dev/docs/getting-started/) docs
 
 ## Bronnen
 - [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics) mdn
@@ -33,7 +36,19 @@
 - [fieldset](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset) mdn
 - [vw transitions](https://css-tricks.com/typecasting-and-viewport-transitions-in-css-with-tanatan2/) CSS tricks
 - [no wifi game](https://codepen.io/t_afif/pen/xbEWzwP?editors=1100) codepen
+- [color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color-scheme) mdn
+- [@media (prefers-color-scheme: )](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme) mdn
+- [template strings js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) mdn
 
 ## Handige websites
 - [Accessible color pallete](https://accessiblepalette.com/)
 - [Contrast checker](https://polypane.app/color-contrast/#fg=%23107db5&bg=%23fff&level=aa&format=rgb&algo=WCAG2&filter=none) Polypane
+
+## npm pakketjes
+- [stage-anouk/stage-anouk](https://www.npmjs.com/package/@stage-anouk/stage-anouk?activeTab=code) fdnd tokens
+- [nl-design-system/tsconfig](https://www.npmjs.com/package/@nl-design-system/tsconfig)
+
+## Frontend masters courses
+- [git-in-depth](https://frontendmasters.com/courses/git-in-depth/)
+- [web-components](https://frontendmasters.com/courses/web-components/)
+- [javascript](https://frontendmasters.com/courses/javascript-first-steps/)
