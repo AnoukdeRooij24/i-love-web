@@ -49,4 +49,6 @@
 - `pnpm run lint` = je runt een lint en krijgt de fouten/verschillen gelogd maar hij past niks zelf aan
 - `pnpm run test` = zoekt in je package.json naar het test script onder "scripts" en voert dat commando uit
 - `pnpm run build` = zoekt in je package.json naar het build script en voert dat uit
+- `npm login` = inloggen op npmjs.com
+- `npm publish` = als je ingelogd bent een nieuwe versie van een npm package releasen, vergeet niet het versie nummer te updaten
 
