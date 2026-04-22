@@ -53,3 +53,38 @@
     - `"KIEKENBOE".toLowerCase()` returns `"kiekenboe"`
 - `.toUpperCase()` = maakt alle karakters in de string waar je dit achter zet upper case
     - `"kiekenboe".toUpperCase()` returns `"KIEKENBOE"`
+
+## Operators
+- Operator voorbeelden:
+    - `+` `-` `*` `/` (artihmetic)
+    - `>` `<` `===` (comparison)
+    - `typeof`
+- Arithmetic operators
+    - `+` = plus
+    - `-` = min
+    - `*` = keer
+    - `/` = delen door
+- `+` operator kan je voor verschillende dingen gebruiken:
+    - `“string” + “string”` samenvoegen
+    - `nummer + nummer` samenvoegen
+    - heeft minstens twee values nodig
+- De volgorde waarin JS de `+` `-` `*` `/` is het zelfde als met wiskunde
+- `*` wordt eerst uitgevoerd en daarna de `+`
+- `4 + 1 * 2` returns `6`
+- Als je de `+` tussen haakjes `()` zet dan wordt dit als eerst uitgevoerd
+- `(4 + 1) * 2` returns `10`
+- Comparison operators
+    - `>` = groter dan
+    - `<` = kleiner dan
+    - `>=` = groter dan of gelijk aan
+    - `<=` = kleiner dan of gelijk aan
+    - `===` of `==` = gelijk aan
+    - `!==` of `!=` = niet gelijk aan
+    - je krijgt een boolean terug (`true` of `false`)
+- Strict vs loose operators
+    - `===` is een stricte operator, deze kijkt of het type value overeen komt en de inhoud overeen komt
+    - `==` is een minder stricte operator, deze kijkt of als hij het omzet naar de dezelfde value type of de inhoud dan het zelfde zou zijn
+    - `"1" === "1"` returns `true`
+    - `1 === "1"` returns `false`
+    - `1 == "1"` returns `true`
+    - `1 == 2` returns `false`
