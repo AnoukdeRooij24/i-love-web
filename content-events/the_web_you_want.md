@@ -1,10 +1,45 @@
 # The web you want
 
 ## ➯ Marleen stikker
+### Why?
+- The [Digital City](https://waag.org/en/project/digital-city-dds/) was the first media platform made entirely of text
+- Created in 1994
+- "The web we want" had to be created at that moment
+- People are starting to realize that AI is not the future, we don’t have control over our social platforms & privacy
+- Is this really the future where all devices spy on us? It’s part of a state model, so we have no say in it
+- People feel that something needs to change, but it’s not enough yet. “How bad does it have to be to change?”
+- Many people learning the web also learn its problems and (accidentally) make them worse
+- Innovation needs renovation
+- There is nothing neutral about technology. What are my values? Those are your ethics, the reasons why you do things. Everyone has ethics, but not everyone understands each other’s. Even influential people with strong opinions that are seen as “bad” have reasons for them (Trump)
+
+### How?
+- Regulation is key:
+    - Opens markets
+    - Stimulates creativity
+    - Creates clarity
+    - Welcomes new entrepreneurs
+    - Strengthens democracy
+- Campaigns:
+    - #MakeSocialSocialAgain
+    - Free Our Feeds
+    - People vs. Big Tech
+- Public values:
+    - Democracy, etc.
+    - These values can be translated into requirements
+
+### What?
+- EuroStack is a European platform to ensure we have a say in whether we rely on big platforms (whether universities should move away from Teams). Within 5 years, we should no longer depend on American digital infrastructure, we need a European-based infrastructure
+- The web should be publicly/socially owned (and managed)
+- The web should be decentralized, built from many different points rather than centered in one place
+- “From Feeds to Trails” research into why we view everything as a vertical feed and whether there are alternatives
+- There are now many alternatives to the big, well-known apps
+    - https://skylight.social/
+    - https://about.surf.social/ + https://surf.social/
+    - EuroSky lists apps for a European-based social platform: https://eurosky.tech/
 
 
 ## ➯ Vasilles & Sanne
-### 3 principes van het web
+### 3 principes of the web
 1. The web is for everyone  (build for everyone)
 2. The web is for everyone  (if its build for everyone, tat means that everyone should be able to use it)
 3. The web is for everyone   (everybody is allowed to put something on the web and everybody can reach it)
@@ -100,3 +135,7 @@ Four words, four questions:
 2. A ‘web’, whether spun by spiders, woven into fabric, or hyper-linked across the digital, reveals a tension between entrapment and openness, between surface and structure, encoding the intention of its creators
 3. The pronoun ‘you’, whether addressing a singular self, an unknowable other or an entire audience, ultimately resist reduction to any single referent, mirroring the pluriverse itself: a web that can never be one thing for everyone, yet must be everything for anyone.
 4. Beneath all the pilosophical wizardry of incompleteness, bad faith, and mimetic rivalry, the path to the web you want turns outnto be disarmingly simple: love the web enough to care for it and decide how you will give it your time. 
+
+## Niels Leenheer
+- The web is a expression of creativity
+- https://cssdoom.wtf/ made of al divs 
