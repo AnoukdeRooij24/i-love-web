@@ -135,3 +135,48 @@
 - Een `statement` is iets wat we zeggen dat JS moet doen zoals het maken en assignen van een variable
     - bijv. `let tien = 6 + 4;` (je zegt tegen JS dat 6 + 4 tien is)
     - `let` , `const` , `if` , `else` , `for` zijn statements
+
+*** 
+
+## Arrays
+- Is een manier om meerdere values samen te houden in 1 collectie
+    - Staat altijd tussen de vierkante haken `[ ]`
+    - Voorbeeld: `let boe = ["aah", "schrik", "whahh"];`
+- Alle elementen in een array krijgen een index nummer
+    - Dit werkt het zelfde als met de strings
+    - `boe.length` returns `3` (er zitten 3 values in de array)
+    - `boe[1]` returns `"schrik"`
+    - `boe.indexOf("aah")` returns `0`
+    - `boe.includes(”whahh”)` returns `true`
+- De values van een array kan je aanpassen
+    - `boe[2] = "help";` hiermee wordt de value die op index twee staat van boe veranderd naar de nieuw meegegeven value, dus `boe` returns `Array(3)["aah", "schrik", "help"]`
+    - `let lastItem = boe.pop();` met `.pop()` wordt de laatste value van boe gepakt en in een nieuwe variable gezet, dus `lastItem` returns `"help"` & `boe` returns `Array [ "aah", "schrik"]`
+    - `boe.push("hallo");` met `.push()` kan je iets achter aan de array toevoegen, dus `boe` returns `Array [ "aah", "schrik", "hallo"]`
+- De inhoud van een array kan veel zijn:
+    - `[ ]` = een lege array
+    - `["lonely"]` = een array met 1 value
+    - Arrays accepteren meerdere types values in een array, dus `["string", 6, document]` gemixt kan ook
+    - In een array kunnen ook meerdere arrays staan
+- `.sort()` = de values in een array sorteren op alfabetische volgorde
+    - `["c", "a", "d", "b"].sort()` returns `["a", "b", "c", "d"]`
+    - `[4, 2, 3, 1].sort()` returns `[1, 2, 3, 4]`
+    - `[100, 2, 50]` werkt niet, want de cijfers worden omgezet naar een string onderwater en de alfabetische textuele volgorde wordt aangehouden
+- `.join()` = voegt de values in de array samen met het karakter tussen de `()`
+    - `[”a”, “b”, “c”].join("&")` returns `["a" & "b" & "c"]`
+    - `.join( )` werkt ook want dan komt er een spatie tussen de values in te staan
+- `.concat()`  = concatenate, het voegt twee strings samen tot een string
+    - `[1, 2, 3].concat([4, 5, 6])` returns `[1, 2, 3, 4, 5, 6]`
+    - Dit kan je ook doen met een variable waar een waarde in staat:
+        - `let numbers = [1, 2, 3];`
+        - `let result = numbers.concat([4]);`  returns `[1, 2, 3, 4]`
+        - De waarde van `numbers` returns nog steeds `[1, 2, 3]` want die waarde is niet aangepast omdat we een nieuwe variable hebben gemaakt
+    - Het verschil met `.push` is dat `.push` de originele array aanpast, `.concat` maakt een nieuwe array en voegt er wat aan toe
+
+### Mutable vs. immutable:
+- Mutable data kan aangepast worden zoals `arrays`
+    - Bijv. met `.push`
+    - Bijv. met `let` een variable aanmaken en een value geven
+- Immutable data blijft altijd het zelfde zoals `strings`  & andere `primitive types`
+    - Bijv. doormiddel van `.concat` (een nieuwe array aanmaken en de oude in tact laten)
+    - Bijv. met `const` een variable aanmaken en een value geven
+- Bij een immutable variable die je met const aanmaakt kan de link tussen de naam en de value niet veranderd worden. Maar de inhoud van de value kan wel veranderen en is dus wel mutable.
