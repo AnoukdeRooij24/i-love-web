@@ -54,6 +54,8 @@
 - `.toUpperCase()` = maakt alle karakters in de string waar je dit achter zet upper case
     - `"kiekenboe".toUpperCase()` returns `"KIEKENBOE"`
 
+***
+
 ## Operators
 - Operator voorbeelden:
     - `+` `-` `*` `/` (artihmetic)
@@ -88,3 +90,48 @@
     - `1 === "1"` returns `false`
     - `1 == "1"` returns `true`
     - `1 == 2` returns `false`
+
+    ***
+
+## Expressions
+- Een expressie resulteert in een waarde
+- Een expression kunnen bijvoorbeeld twee strings zijn die samen een nieuwe string vormen
+    - `“kieken" + "boe"`  returns `"kiekenboe"`
+    - `"kiekenboe".includes("kieken" + "boe"` returns `true` want de expression (van twee strings bij elkaar gevoegd) zit in de eerste string
+
+### Variables:
+- Je kan een variable vergelijken met het toevoegen van iemand aan je contacten. Je maakt een nieuw contact en voegt daar een naam en nummer aan toe. Wanneer je deze naam aanroept/belt dan wordt het nummer gebruikt om die naam te bellen.
+- Naamgeving van variables
+    - `validVariable` (camelCase) = het meest voorkomend
+    - `also_valid_but_less_common` (snake-case)
+    - `Oddbut_Technicallyfine2`
+    - Je kan niet starten met een nummer of andere karakters gebruiken zoals een !
+- `const` = maakt een nieuwe variable aan waarvan de value ‘constant’ is en dus nooit gereassigned kan/mag worden
+- `let` = creates een nieuw variable in JS, de value hiervan kan/mag worden veranderd door een andere value te assignen
+    - Voorbeeld: `let remember = "Aug. 1";`
+    - Achter de `let`  kan je een woord zetten wat de naam wordt van je nieuwe variable (in dit geval `remember` )
+    - `=` = een value aan de naam meegeven/assignen (kan je onthouden als een pointer (→)
+    - De value in dit geval is een string (`”Aug. 1”`)
+    - `;` = einde variable
+- Je kan ook eerst een variable maken (`let remember;`) en dan later op een andere plek in je JS een value meegeven (`remember = “Aug. 1”;`)
+- Een variable kan ingezet worden als een `expression` bijv:
+    - `42 - 10` returns `32`
+    - `let answerToLife = 42;` en daarna `answerToLife - 10` returns `32` want de variable wordt gezien als wat er in staat
+    - `let parentsAge = 23 + 24;` en daarna `parentsAge` returns `47`
+- We kunnen de variables inzetten als de value die eraan is meegegeven
+    - `myDeclaredVariable.toUppercase()` returns met dat wat er in de meegeven string van de variable staat in hoofdletters
+- Een variable kan je ook gebruiken om een html element aan te spreken, dit doe je door een variable te maken en daaraan bijv. de `#id` mee te geven als value:
+    - `let board = document.quesrySelector("#board");`
+    - Wanneer je nu `board` aanroept krijg je het element terug bijv. `div id="board">`
+    - Dan kan je dit ook gebruiken om informatie uit te halen zoals `board.children.length` returns `9` inplaats van `document.quesrySelector("#board").children.length`
+- Een variable aan een variable meegeven kan ook, hiermee zeg je dat de eerste variable dezelfde value heeft als de meegegeven variable bijv:
+    - `let scrub = “ fly”;` `let busta = scrub;` gebeurd er `busta` returns `"fly"` de connectie van `busta = scrub;` zorgt ervoor dat busta naar de value van scrub linkt en niet naar de naam van de variable
+    - Als je daarna `scrub = "no love";` doet dan wordt de oude connectie met de string uitgevaagd en wordt er een nieuwe link gemaakt naar de nieuwe value dus `scrub` returns `"no love"`
+    - Als je daarna het volgende doet: `busta` returns nog steeds `“fly”`  want de connectie tussen van `busta` linkt niet naar de variable `scrub` maar naar de value van scrub voordat het veranderd werd (volgorde van de code maakt uit)
+
+### Statements vs. expressions
+- Een `expression` is een vraag aan JS bijvoorbeeld wat de waarde van iets is
+    - bijv. `6 + 4` (je vraagt nu aan JS wat is 6 + 4)
+- Een `statement` is iets wat we zeggen dat JS moet doen zoals het maken en assignen van een variable
+    - bijv. `let tien = 6 + 4;` (je zegt tegen JS dat 6 + 4 tien is)
+    - `let` , `const` , `if` , `else` , `for` zijn statements
