@@ -1,6 +1,6 @@
 # Stichting accessibility
 
-## Over stichting accessibility
+## Over [stichting accessibility](https://www.accessibility.nl/)
 - Jan Jaap, Veron, Brian & Sabine kwamen langs
 - In 2001 opgericht door een docent van een blinde school omdat die leerlingen het web niet op konden
 - Ze helpen scholen/opleidingen met het opzetten van "toegankelijkheid in curriculum" -> TIC 
