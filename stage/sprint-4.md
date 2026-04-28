@@ -92,3 +92,10 @@ In de standup van vanochtend heb ik aangegeven dat ik vandaag vooral verder ga m
 
 ## Donderdag 23-4-2026
 In de standup vandaag aangegeven dat ik bezig ben met de javascript first steps course en dat ik daar vandaag mee verder ga. Ik heb twee hoofdstukken (van ruim een uur) gedaan vandaag, ik heb ondertussen aantekeningen gemaakt met voorbeelden zodat ik het makkelijk terug kan lezen. Mijn 'nieuwe dingen leer' laadje is nu wel vol dus ben ik ook verder gegaan met kijken of ik met het script van de scraper wat verder kon komen.
+
+## Vrijdag 24-4-2026
+In de standup heb ik verteld dat ik vandaag naar de git sessie met utrecht ga, dit was al weer een tijdje geleden. En dat in de middag stichting accessebility op school langs komt en dat ik daar in de middag mee bezig ben. De workshop van stichting accessebility was interessant. We gingen kijken in groepjes studenten wat stichting accessebility belangrijk vind en welke punten in hun leerdoelen staan. Daarna hebben we gekeken waar we die leerdoelen al behandelen in het fdnd progamma. We hebben ook bespoken waarom we sommige punten niet behandelen en welke we meer terug kunnen laten komen. 
+
+*** 
+
+## Dinsdag 28-4-2026
