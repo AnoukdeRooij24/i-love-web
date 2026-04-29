@@ -180,3 +180,86 @@
     - Bijv. doormiddel van `.concat` (een nieuwe array aanmaken en de oude in tact laten)
     - Bijv. met `const` een variable aanmaken en een value geven
 - Bij een immutable variable die je met const aanmaakt kan de link tussen de naam en de value niet veranderd worden. Maar de inhoud van de value kan wel veranderen en is dus wel mutable.
+
+## Objects
+- Een object kan je herkennen doordat het tussen `{ }` staat
+- Een object heeft een value, die met properties naar verschillende values wijst, tussen de properties staat altijd een komma
+    - `const person = { 
+       name: “Anouk”,
+       birthYear: 2005
+    };`
+- Je kan de naam van het object aanroepen en met een `.` ertussen de specifieke property aanroepen binnen het object
+    - [`person.name`](http://person.name) returns “Anouk”
+- Je kan dezelfde dingen met de properties doen als dat je rechtstreeks met de strings/numbers zou doen:
+    - `person.name.startsWith("A")` returns `true`
+    - `let age = 2026 - person.birthYear;` en daarna `age` returns `21`
+- Je kan een array in een object gebruiken
+    - `const person = { 
+       name: “Anouk”,
+       hobbies: ["reizen", "lezen", "creatieve dingen"],
+       birthYear: 2005
+    };`
+- Je kan de waarde van de value van een property aanpassen:
+    - `const dag = { 
+       lunch: “wrap”
+    };`
+    - `dag.lunch` returns `"wrap"`
+    - Als je daarna `dag.lunch = “pasta”;` aanmaakt en dan nog een keer de waarde van lunch vraagt krijg je dit:
+    - `dag.lunch` returns `"pasta"`
+- Je kan ook een nieuwe property toevoegen met de `.`
+    - `dag.snack = “aardbij”`
+    - Als je daarna opnieuw de waarde vraagt van dag returned hij allebei de properties
+    - `dag` returns `object {lunch: "pasta", snack: "aardbij" }`
+- Een function meegeven aan een property kan ook:
+    - `const person = { 
+       name: “Anouk”,
+       boe: function () {
+          console.log("aah");
+       }
+    };`
+    - Nu roept de property `boe`  de functie aan die `function ()` heet
+- Voorbeeld van een object met properties waarin properties genest zijn:
+`const menu = { 
+   lunch: {
+      voor: "salade",
+      hoofd: "broodje",
+      na: "aardbij"
+   },
+   dinner: {
+      voor: "soep",
+      hoofd: "pasta",
+      na: "brownie"
+   }
+};`
+    - `menu.dinner.na` returns `brownie`
+- Je kan een property van een object ook laten verwijzen naar de variable van een array, op die manier komt de informatie die in die variable staat ook in het object te staan
+
+### Verschil objects en arrays:
+- Bij een object benoem je de propperties met “strings”
+    `object = { 
+       name: “Anouk”,
+       birthYear: 2005
+    };`
+- Bij een array benoemd JS het automatisch met nummers
+    - Wat je typt:
+    `array = [”Anouk”, 2005]`
+    - Wat je onder water niet ziet:
+    `array = [ 
+       0: “Anouk”,
+       1: 2005
+    ];`
+
+### Build in methods
+- Document is ook een object, als je `document` in de console in de browser typt dan krijg je alle properties te zien
+    - bijvoorbeeld `document.querySelector()`
+- Console is hier ook een voorbeeld van:
+    - `console.log()`
+    - `console.warn`
+    - `console.error`
+    - `console.clear()` (of in het kort `clear()`) zijn ook pre build methods
+- Math is ook een build in object:
+    - `Math.random()` returns elke keer een random getal tussen 0 en 1
+    - `Math.PI` returns 3.1415926
+- Strings zijn primitive types maar achter de schermen maakt JS er een object van zodat we er mee kunnen interacten door methods en properties
+    - Bijv. `.toUpperCase`
+    - De waarde van de string blijft altijd het zelfde, met de methods maak je en kopie aan
