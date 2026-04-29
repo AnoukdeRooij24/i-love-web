@@ -209,9 +209,9 @@
     - Als je daarna `dag.lunch = “pasta”;` aanmaakt en dan nog een keer de waarde van lunch vraagt krijg je dit:
     - `dag.lunch` returns `"pasta"`
 - Je kan ook een nieuwe property toevoegen met de `.`
-    - `dag.snack = “aardbij”`
+    - `dag.snack = framboos`
     - Als je daarna opnieuw de waarde vraagt van dag returned hij allebei de properties
-    - `dag` returns `object {lunch: "pasta", snack: "aardbij" }`
+    - `dag` returns `object {lunch: "pasta", snack: "framboos" }`
 - Een function meegeven aan een property kan ook:
     - `const person = { 
        name: “Anouk”,
@@ -225,7 +225,7 @@
    lunch: {
       voor: "salade",
       hoofd: "broodje",
-      na: "aardbij"
+      na: "framboos"
    },
    dinner: {
       voor: "soep",
