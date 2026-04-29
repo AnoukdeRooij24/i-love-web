@@ -4,6 +4,7 @@
 - [Oklab colors](https://bottosson.github.io/posts/oklab/)
 - [The CSS Selection](https://www.projectwallace.com/the-css-selection/2026)
 - [The last quiet thing](https://www.terrygodier.com/the-last-quiet-thing)
+- [Accessibility fundamentals](https://inklusivo.nl/accessibility-fundamentals/)
 
 ## Documentatie
 - [lint documentatie](https://www.nldesignsystem.nl/linting-en-code-formatting/) nlds
