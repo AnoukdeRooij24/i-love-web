@@ -99,3 +99,4 @@ In de standup heb ik verteld dat ik vandaag naar de git sessie met utrecht ga, d
 *** 
 
 ## Dinsdag 28-4-2026
+In de standup aangegeven dat ik vandaag mijn geschreven notities van vrijdag even goed ga orderenen en verder ga met de JS cursus afmaken. Ik ben in de ochtend veel bezig geweest met dingen ordenen en mn notities op orde maken. Na de luch heb ik meegekeken met de heartbeat waar Bart heeft verteld over de theme wizzard updates. En er is verteld waarom het belangrijk is om de figma hygiene aan te houden en wat dat precies inhoud. Daarna heb ik ook het [filmpje wat Koop doorstuurde](https://www.youtube.com/watch?app=desktop&v=HgNDii20FG4) gekeken, daar stonden best wat interessante dingen in. 
