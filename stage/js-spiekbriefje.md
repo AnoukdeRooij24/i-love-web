@@ -181,6 +181,8 @@
     - Bijv. met `const` een variable aanmaken en een value geven
 - Bij een immutable variable die je met const aanmaakt kan de link tussen de naam en de value niet veranderd worden. Maar de inhoud van de value kan wel veranderen en is dus wel mutable.
 
+***
+
 ## Objects
 - Een object kan je herkennen doordat het tussen `{ }` staat
 - Een object heeft een value, die met properties naar verschillende values wijst, tussen de properties staat altijd een komma
