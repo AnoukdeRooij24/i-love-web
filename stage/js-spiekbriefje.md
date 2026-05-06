@@ -265,3 +265,67 @@
 - Strings zijn primitive types maar achter de schermen maakt JS er een object van zodat we er mee kunnen interacten door methods en properties
     - Bijv. `.toUpperCase`
     - De waarde van de string blijft altijd het zelfde, met de methods maak je en kopie aan
+
+
+## Functions
+- Maak een functie aan door:
+    - `function half(x) {
+        return x / 2;
+    }`
+    - De naam van de functie is: `half`
+    - De value van de functie staat altijd tussen de `()` als het tussen de `()` leeg is, heeft de functie geen value
+- Een functie oproepen/gebruiken:
+    - `const one = half(2);`
+    - Je gebruikt hier de functie naam `half` om de geschreven functie te gebruiken in een variable
+    - Een functie zonder `()` erachter wijst naar de functie zelf, een functie met `()` voert de functie uit
+- Parameters zijn values die een functie nodig heeft om te werken, dit kunnen ook een soort placeholders voor echte values zijn:
+    - `function test(x, y) {
+        return x + y;
+    }`
+    - De x en y zijn de parameters die een waarde nodig hebben
+    - `test(2, 3);` zijn arguments, geeft waarde mee aan de “placeholder values”/parameters, dit doe je door de functie naam aan te roepen en het tussen de `()` een op een te vervangen met de nieuwe waardes.
+- Sommige functies hebben geen values nodig, bijv:
+    - `function getRandomNumber() {
+        return Math.random();
+    }`
+    - Als je de functie `getRandomNumber();` uitvoert dan krijg je een random nummer (tussen 0-1) terug
+- Alle functies hebben een return nodig in de functie, anders stuurt JS niks terug en krijg je een `undefined`
+    - `function logAndReturn(x) {
+        console.log(x * x);
+        return x * x;
+    }`
+    - `const result = logAndReturn(3)` returns `9`
+    - Als je bovenstaande code herhaalt, zonder de return:
+    - `function logWithoutReturn(x) {
+        console.log(x * x);
+    }`
+    - `const result = logWithoutReturn(3)` returns `undefined`
+- Javascript stopt met het uitvoeren van de code na de `return` in een functie
+- Met een fat arrow `=>` kan je een korte functie schrijven zonder een functie te maken
+    - Bijv. `const name = (firtsName, lastName) => firstName + " " + lastName;`
+    - Bijv. `const shorterThan = (a, b) => a.length < b.length;`
+    - `const add = (x, y) => x + y;` is hetzelfde als:
+    `function add(x, y) { return x + y; }`
+    - De naamgeving gaat via de variable, de functie werkt door de `=>`
+    - Tussen de `()` worden de parameters aangegeven en rechts van de `=>` staan de return values
+    - Dit kan je gebruiken als je alleen een value wilt returnen
+- Met een `=> { }` kan je ook meerdere dingen in een fat arrow functie zetten:
+    - Dit kan je doen door alles na de `=>` tussen `{}` te zetten
+    - `const addAndLog =  (x, y) => {
+    let sum = x + y;
+    console.log('Opgeteld is dat', sum);
+    return sum;
+    }`
+    - Door de variable `sum` aan te maken in de functie hoeven we niet steeds `x + y` te herhalen
+- Met de html attribute `disabled= “”` in een button kan je hem on-klikbaar maken
+    - Dit kan je in JS meegeven door:
+    `const disable = (button) => {
+    button.setAtribute("disabled", "");
+    }`
+    - En je kan het weer aanzetten door de attribute te verwijderen:
+    `const enable = (button) => {
+    button.removeAtribute("disabled");
+    }`
+- Als je een variable aan maakt in een functie kan de global scope die niet vinden, of wel een zelfde variable vinden maar met een andere waarde. Let dus goed op dat je op de juiste laag tegen de variabele praat
+    - Van een wijdere scope kunnen we niet in kleinere/nested scopes kijken
+    - Van een kleinere/nested scope kunnen we wel in de grotere scopes om de kleinere scope heen kijken
