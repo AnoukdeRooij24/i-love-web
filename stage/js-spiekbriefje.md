@@ -329,3 +329,14 @@
 - Als je een variable aan maakt in een functie kan de global scope die niet vinden, of wel een zelfde variable vinden maar met een andere waarde. Let dus goed op dat je op de juiste laag tegen de variabele praat
     - Van een wijdere scope kunnen we niet in kleinere/nested scopes kijken
     - Van een kleinere/nested scope kunnen we wel in de grotere scopes om de kleinere scope heen kijken
+
+## Event listeners
+- `.addEventListener()` heeft twee parameters nodig:
+    - Waar die naar moet luisteren (bijv. `”click”`)
+    - Een handler function die JS gaat uitvoeren wanneer er iets met het element gebeurd
+    - Voorbeeld: 
+    `button.addEventListener(”click, (event) => {
+        console.log(”event.target”)
+    });`
+    - Met `event.target` in de console log krijg je te zien op welk element er is geklikt
+- Een paar meest voorkomende types events zijn: `“click”` `“dblclick”` `“mouseover”` `“mouseout”` `“focus”`
