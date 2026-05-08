@@ -340,3 +340,59 @@
     });`
     - Met `event.target` in de console log krijg je te zien op welk element er is geklikt
 - Een paar meest voorkomende types events zijn: `“click”` `“dblclick”` `“mouseover”` `“mouseout”` `“focus”`
+
+## Conditionals
+- Met een if statement geef je aan dat als iets wat tussen de `()` staat true is, voer dan deel twee uit wat tussen de `{}` staat
+    - `if (you.wannabeMyLover) {
+        you.gottaBeWithMyFriends = true;
+    };`
+- Met een if else statement geef je aan dat als het if statement niet true is, het else statement uitgevoerd moet worden
+    - `if (you.reallyBug(me)) {
+        me.say(”goodbye”);
+    } else {
+         me.say(”Hello”);
+    }`
+- Je kan meerdere if else statements achter elkaar zetten:
+    - `function compare(x, y) {
+        if (x > y) {
+            console.log(x, "is greater than", y);
+        } else if (x < y) {
+            console.log(x, "is less than", y);
+        } else {
+            console.log(x, "is equal to", y);
+        }
+    };`
+    - Hiermee zeg je, als de eerste if niet true is dan kunnen er nog twee opties zijn, als de tweede if ook niet true is dan is het altijd de laatste optie
+    - `compare(3,2)` returns `3 is greater than 2`
+    - `compare(2,3)` returns `2 is less than 3`
+    - `compare(2,2)` returns `2 is equal to 2`
+- `if (!uitroepteken) { }` met het `!` zeg je dat als het true is dat de condition tussen de `()` niet waar is dan moet het tussen de `{}` uitgevoerd worden, als het niet klopt dat het niet waar is wordt er niks uitgevoerd
+- `if (dingEen && dingTwee) {}` met de `&&` kijk je of allebei de voorwaardes kloppen/waar zijn en alleen dan wordt het tussen de `{}` uitgevoerd
+- `if (dingEen || dingTwee) {}` met de `||` kijk je of (minstens) een van de voorwaardes klopt/waar is en dan wordt get tussen de `{}` uitgevoerd
+- Er is een shortcut voor if else en dat is een `?` dat kan je zien als:
+    - `let mood = forecast === "sunny" ? "happy" : "sad"`
+    - `let mood; if (forecast === "sunny") { mood = "happy"; } else { mood = "sad"; }`
+    
+
+### Loops / iteration
+- Een `for` loop heeft 3 onderdelen
+    - `for` geeft aan dat het een for loop is
+    - `( )` hoe de loop moet runnen
+    - `{ }` wat er moet gebeuren als de loop doorlopen wordt
+- Een voorbeeld van een for loop:
+    - `for (let count = 0; count <= 100; count += 10) {
+        console.log(count);
+    }`
+    - Met `count = 0;` tellen we hoe vaak de loop heeft gerund of wat de waarde is
+    - Met `count <= 100;` geef je een voorwaarde aan die JS checkt of/tot wanneer de code in de loop gerund wordt, in dit geval zolang de counter lager dan of gelijk aan 100 is
+    - Met `count += 10` geef je aan dat elke keer dat de code gerund wordt, dit erbij moet komen
+    - de `+=` kijkt naar de huidige waarde en telt een waarde erbij op bijv. `let dogs = 0;` en daarna `dogs += 1` returns `1` , dit werkt het zelfde als `dogs = dogs + 1`
+- Een `for…of` loop kan je alleen gebruiken op Iterable objects zoals arrays en strings
+    - (Een iterable is een type verzameling die systematisch doorlopen kan worden, waarbij de items in een bepaalde volgorde staan)
+    - `for (let char of "ALOHA") {
+        console.log(char);
+    }`
+    - Deze geeft alle characters van de string in een aparte console.log door
+    - `for (variable of iterable) { statement };`
+- Het verschil tussen een `for` en `for ... of` loop is dat je met een `for` loop meer controle hebt over hoe de loop moet runnen, dus wat je tussen de `( )` aangeeft. Met een `for ... of`  loop zeg je meteen dat je in een object wilt zoeken zonder verder te specificeren hoe
+- Met `.classList.add()` kan je een css toevoegen aan een element
