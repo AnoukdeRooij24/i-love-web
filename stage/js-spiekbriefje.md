@@ -396,3 +396,25 @@
     - `for (variable of iterable) { statement };`
 - Het verschil tussen een `for` en `for ... of` loop is dat je met een `for` loop meer controle hebt over hoe de loop moet runnen, dus wat je tussen de `( )` aangeeft. Met een `for ... of`  loop zeg je meteen dat je in een object wilt zoeken zonder verder te specificeren hoe
 - Met `.classList.add()` kan je een css toevoegen aan een element
+
+### Map & Filter
+- Filter kan onderdelen uit een array halen die je niet wilt
+    - `const groep = [
+        {name: "Anouk", nickname: "Noukie"}, 
+        {name: "Kiekenboe", nickname: "schrik"}
+    ];`
+    - `const anouk = groep.filter(person => person.name.includes("A"));` returns een nieuwe array `[ {name: "Anouk", nickname: "Noukie"} ]`
+    - .filter zoekt een true/false en maakt een nieuwe array aan, bij true komt het onderdeel in de nieuwe array en bij false niet
+- Met map kan je dingen doen tegen alle onderdelen die overblijven
+    - `const nicknames = groep.map(person => person.nickname);` returns een nieuwe array `[ “Noukie”, “schrik” ]`
+    - .map geeft een nieuwe array met alleen de bijnamen ipv de oude array aanpassen
+- Reduce combineert alle overgebleven onderdelen tot 1 ding
+
+### Templates
+- Met de backticks string kan je tussen ``${ }`` een dollar teken en curly braces JS typen
+    - ``1 + 2 bij elkaar opgeteld is ${ 1 + 2 }`` returns `"1 + 2 bij elkaar opgeteld is 3"`
+- Met spread `...` kan je alles in een variabele aanspreken zonder alles over te hoeven typen
+    - `const skills = ["HTML", "CSS"];
+    const newSkills = ["JS", "git"];
+    skills.push(...newSkills);`
+    - `skills` returns `["HTML", "CSS", "JS", "git"]`
