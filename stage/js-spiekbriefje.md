@@ -418,3 +418,12 @@
     const newSkills = ["JS", "git"];
     skills.push(...newSkills);`
     - `skills` returns `["HTML", "CSS", "JS", "git"]`
+
+### While loops
+- Je geeft een voorwaarde mee aan de loop, deze blijft runnen tot de voorwaarde true is
+- `while (randomNumbers.length < 5) { randomNumbers.push(math.random());}` deze blijft nu runnen tot er 5 nummers in de `randomNumbers` array staan
+- Zet nooit een voorwaarde erin die altijd true is, dan crashed je browser
+
+### Math.
+- `math.floor()` kan je alleen alles wat voor de `,` in een getal komt laten zien
+- `math.random() * arrayLength` kan je de random opties laten genereren op basis van hoelang de array is
