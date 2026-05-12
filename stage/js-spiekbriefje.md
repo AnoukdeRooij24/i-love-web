@@ -450,3 +450,8 @@
 - de spread … kan ook gebruikt worden om alle overige values te verzamelen bijv `let [one, ...overig] = [1, 2, 3, 4];` one returns `1` en overig returns `[2, 3, 4]`
 - `.split(" ")` meegeven aan een array kan je woorden die in een array staan opsplitsen aan de hand van het karakter wat je in de split meegeeft, in dit geval een spatie
 - `.trim()` haalt lege witruimtes aan de buitenkanten van een string weg
+
+## Async functions
+- Voorbeeld: `async function fetchMessage(url) { const repsonse = await fetch(url); }`
+- `await` kan je niet in een functie gebruiken tenzij je er een `async function` van maakt
+- Als je het resultaat van de async function wilt aanspreken moet je voor de functie naam als je hem aanroept ook `await` zetten anders krijg je een promise terug: `await fetchmessage(url)`
