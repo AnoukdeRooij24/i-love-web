@@ -427,3 +427,13 @@
 ### Math.
 - `math.floor()` kan je alleen alles wat voor de `,` in een getal komt laten zien
 - `math.random() * arrayLength` kan je de random opties laten genereren op basis van hoelang de array is
+
+### fetch()
+- Met een fetch kan je een API URL ophalen met `fetch(”url”);`
+- Je hebt ook een promise nodig, omdat de async code van een fetch lang kan duren
+    - pending: aan het laden
+    - fulfilled: klaar
+    - rejected: mislukt
+- Met een async stukje code, stopt js dit in zn todo lijstje en gaat ondertussen door maar soms heb je de data nodig voor js verder kan. Met `await` zorg je ervoor dat js pas verder gaat als de data er is
+- `let response = await fetch("url");` hier wacht de code met verder gaan tot de promise van de fetch compleet is maar je krijgt nog niet het lijstje met json data wat je wilt
+- Als je daaronder `let body = await response.json();` doet dan
