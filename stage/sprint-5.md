@@ -24,3 +24,7 @@ Robbert kwam bij me checken of ik nog verder was gekomen met de scraper code, ik
 
 ## Maandag 11-5-2026
 In de standup heb ik verteld dat ik verder ga met de JS cursus en dat ik er bijna doorheen ben. Ik heb dat de rest van de dag ook gedaan.
+
+## Dinsdag 12-5-2026
+In de standup heb ik aangegeven dat ik vandaag (of misschien morgen) de JS cursus denk af te ronden. En dat ik even bij de heartbeat ga buurten vanmiddag. 
+Ik heb 3 hoofdstukken van de JS course gedaan en de oefen codepen die erbij hoort afgemaakt. Ook ben ik bij de heartbeat geweest waar Robbert ging vertellen over het root component. Dat was een duidelijk verhaal en een slimme oplossing voor veel problemen. Hij noemde nog een paar dingen die ik zelf even wil opzoeken en uitzoeken de komende dagen.
