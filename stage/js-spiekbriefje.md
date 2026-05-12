@@ -436,4 +436,17 @@
     - rejected: mislukt
 - Met een async stukje code, stopt js dit in zn todo lijstje en gaat ondertussen door maar soms heb je de data nodig voor js verder kan. Met `await` zorg je ervoor dat js pas verder gaat als de data er is
 - `let response = await fetch("url");` hier wacht de code met verder gaan tot de promise van de fetch compleet is maar je krijgt nog niet het lijstje met json data wat je wilt
-- Als je daaronder `let body = await response.json();` doet dan
+- Als je daaronder `let body = await response.json();` doet dan zet hij de data om naar json
+
+### Destructuring
+- Hiermee kan je alleen de aangegeven properties uit een object of array halen
+- Als je een object hebt: `const person = [{ name: “Anouk”, birthYear: 2005 }, blabla ];`
+- En je doet dan: `let {name, birthYear} = person[0];` dan zeg je dat de name property van `person[0]` nu de nieuwe waarde is van de name variable
+- Als je `let {name} = person[0];` doet dan krijg je terug bij name `"Anouk"` en bij birthYear `""`
+- Als je een object hebt met veel properties maar je hebt er maar een paar nodig kan je het zo aangeven, de volgorde maakt niet uit bij objects maar wel bij arrays
+- Als je een array aangeeft `let [one, two, three, four] = [1, 2, 3, 4]` dan krijg je van one 1 terug etc
+- Als je een alleen de eerste paar wilt aanspreken doe je `let [one, two] = [1, 2, 3, 4]` nu krijg je bij one en two de nummers terug en worden de nummers 3 en 4 genegeerd
+- Als je de eerste waardes aan de rechterkant wilt overslaan kan je een , gebruiken `let [,,three] = [1, 2, 3, 4]` nu krijg je bij three 3 terug en de rest word genegeerd (zonder de `,,` zou je bij three 1 terug krijgen)
+- de spread … kan ook gebruikt worden om alle overige values te verzamelen bijv `let [one, ...overig] = [1, 2, 3, 4];` one returns `1` en overig returns `[2, 3, 4]`
+- `.split(" ")` meegeven aan een array kan je woorden die in een array staan opsplitsen aan de hand van het karakter wat je in de split meegeeft, in dit geval een spatie
+- `.trim()` haalt lege witruimtes aan de buitenkanten van een string weg
