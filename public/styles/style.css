@@ -9,6 +9,7 @@ body {
     height: 95vh;
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     background-color: var(--accent-beige);
+    font-size-adjust: 0.58;
 }
 
 /* FONTS */
