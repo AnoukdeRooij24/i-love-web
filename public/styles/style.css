@@ -10,7 +10,15 @@ body {
     font-family: 'Open Sans',"Relieve", Arial, sans-serif;
     background-color: var(--accent-beige);
     font-size-adjust: 0.58;
+    /* scroll-behavior: smooth; */
+    /* hyphenate-limit-chars: 12 8 4; */
 }
+
+/* @media (prefers-reduced-motion: no-preference) {
+    .body:focus {
+        scroll-behavior: smooth;
+    }
+} */
 
 /* FONTS */
 @font-face {
