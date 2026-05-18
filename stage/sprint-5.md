@@ -31,3 +31,6 @@ Ik heb 3 hoofdstukken van de JS course gedaan en de oefen codepen die erbij hoor
 
 ## Woensdag 13-5-2026
 In de standup aangegeven dat ik de JS course vandaag af ga ronden. Dat is me ook gelukt. Ik heb daarnaast ook nog gekeken naar de font-size-adjust want robbert had het daarover in de heartbeat van gister en ik vond het interessant om dat uit te zoeken voor mn i love web. 
+
+## Vrijdag 15-5-2026
+In de standup vanochtend gezegd dat ik vandaag mijn aantekeningen die ik van de cursus heb gemaakt ga ordenen tot een JS spiekbriefje. En dat ik ga kijken of ik wat meer grip kan krijgen op het css scraper scriptje met mijn nieuwe javascript kennis. Ik heb ook de git course nog even verder aangezet.
