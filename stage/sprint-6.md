@@ -1,0 +1,7 @@
+# Sprint 6
+
+## Maandag 18-5-2026
+In de standup heb ik gezegd dat ik even met Robbert wil kletsen over hoe ik verder kan en aan de hand daarvan een plan voor vandaag ga maken. Ook hebben we vandaag een security awareness training. 
+In de ochtend heb ik met Robbert gekeken naar hoe ik nou verder kan met de scraper. Ik liep er even helemaal op vast, we hebben samen de usecase voor de website bedacht en welke onderdelen er nodig zijn. Ik heb dit allemaal gedocumenteerd in een issue en heb daarna sub isses gemaakt van de losse functies die nodig zijn. 
+We kregen om 11.00 een security awareness training van Robbert, die ging over het software development stukje van het [handbook.frameless.io](https://handbook.frameless.io/docs/handbook/quality/). Hij heeft alle puntjes doorgelopen en extra uitleg gegeven. 
+Ik heb voor de scraper de oude branch bij de main gemerged en een nieuwe branch aangemaakt. Ik ben daarna gaan kijken of ik met een if else statement een message in de console log kan krijgen wanneer de noce of evil tokens leeg zijn, maar dit lukte nog niet. Ik ben gaan schetsen om er een iets beter idee van te krijgen. Ook heb ik een snelle schets gemaakt voor het design van de pagina zodat ik een iets beter idee heb van welke code nodig is. 
