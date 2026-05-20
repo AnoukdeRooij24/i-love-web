@@ -55,6 +55,7 @@
 ## Handige websites
 - [Accessible color pallete](https://accessiblepalette.com/)
 - [Contrast checker](https://polypane.app/color-contrast/#fg=%23107db5&bg=%23fff&level=aa&format=rgb&algo=WCAG2&filter=none) Polypane
+- [color picker](https://p4lette.app/?utm_source=the-index&utm_medium=newsletter#p=2c6c43-336688-753ac0-e269a7-fad9b2) met contract checker
 
 ## npm pakketjes
 - [stage-anouk/stage-anouk](https://www.npmjs.com/package/@stage-anouk/stage-anouk?activeTab=code) fdnd tokens
