@@ -40,6 +40,17 @@
 - [color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/color-scheme) mdn
 - [@media (prefers-color-scheme: )](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-color-scheme) mdn
 - [template strings js](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) mdn
+- [Axe devtools](https://www.deque.com/axe/devtools/?hsa_src=g&hsa_ad=801062791834&hsa_tgt=kwd-1186988429448&hsa_mt=p&hsa_ver=3&hsa_acc=7854167720&hsa_kw=axe+devtools&hsa_grp=196958548680&hsa_cam=23676444601&hsa_net=adwords&gad_source=1&gad_campaignid=23676444601&gbraid=0AAAAADxhNYySdSvkhx_J1tPARJnXhQe_9&gclid=Cj0KCQjwlLDQBhDjARIsAPlIefF4uFsYkqGKdDzuk5uThy9NE45s_V5XDPoUveQWad5gYLOJkZN_ic0aAp0dEALw_wcB&utm_term=axe%20devtools&utm_campaign=Branded_Products_axe+%7C+NA+%7C+Mixed&utm_source=adwords&utm_medium=ppc) accessibility test extentie
+- [deque](https://www.deque.com/) het bedrijf achter Axe devtools
+- [Axe con](https://www.deque.com/axe-con/schedule/) hier kan je de talks terugkijken
+- [accessebility insights](https://accessibilityinsights.io/) accessibility extentie
+- [nva](https://www.nvaccess.org/download/) screenreader 
+- [jaws](https://accessibe.com/glossary/jaws) screenreader
+- [wave](https://wave.webaim.org/) accaccibility test extention
+- [text spacing editor](https://chromewebstore.google.com/detail/text-spacing-editor/amnelgbfbdlfjeaobejkfmjjnmeddaoj) chrome extentie
+- [web developer](https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) chrome extentie
+- [webaim](https://webaim.org/) 
+- [webaim color contrast](https://webaim.org/resources/contrastchecker/) checker 
 
 ## Handige websites
 - [Accessible color pallete](https://accessiblepalette.com/)
