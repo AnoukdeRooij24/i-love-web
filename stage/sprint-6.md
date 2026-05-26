@@ -12,3 +12,6 @@ In de ochtend ben ik bezig geweest om te zorgen dat ik inplaats van de token det
 
 ## Woensdag 20-5-2026
 In de standup van vanochtend heb ik gezegt dat ik met Savi naar de WCAG templates had gekeken en dat ik bezig ben geweest met het schrijven van de javascript van de message functie van de scraper inplaats van alle tokens op de website te tonen. En dat ik met die functie vandaag verder ga. Ik heb het voor elkaar gekregen om de color message te laten lukken zonder het foute aantal tokens in de meldig te laten zien en een apparte pagina te maken voor de scraper. En ik heb de linkjes die ik van Savi had gekregen gedocumenteerd in mijn bronnen lijstje. 
+
+## Donderdag 21-5-2026
+In de standup van vandaag verteld dat ik wat css ga toepassen op de scraper zodat ik bij de terugkomdag van morgen wel iets heb te laten zien. Daar ben ik de rest van de dag mee bezig geweest. 
