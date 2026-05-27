@@ -15,3 +15,9 @@ In de standup van vanochtend heb ik gezegt dat ik met Savi naar de WCAG template
 
 ## Donderdag 21-5-2026
 In de standup van vandaag verteld dat ik wat css ga toepassen op de scraper zodat ik bij de terugkomdag van morgen wel iets heb te laten zien. Daar ben ik de rest van de dag mee bezig geweest. 
+
+*** 
+
+## Dinsdag 26-5-2026
+In de standup aangegeven dat ik vandaag verder ga met het schrijven van de functies voor de meldingen van de scraper. En daar ben ik mee bezig geweest. Ook heb ik mn laptop schoongemaakt, de oude bestanden opgeruimd en de update uitgevoerd zodat de veilig werken checklist weer even doorlopen is. 
+
