@@ -21,3 +21,13 @@ In de standup van vandaag verteld dat ik wat css ga toepassen op de scraper zoda
 ## Dinsdag 26-5-2026
 In de standup aangegeven dat ik vandaag verder ga met het schrijven van de functies voor de meldingen van de scraper. En daar ben ik mee bezig geweest. Ook heb ik mn laptop schoongemaakt, de oude bestanden opgeruimd en de update uitgevoerd zodat de veilig werken checklist weer even doorlopen is. 
 
+## Woensdag 27-5-2026
+In de standup aangegeven dat ik doorga met waar ik gister al mee was begonnen en dat ik ook alvast wil kijken naar wat bewijslast zodat ik voorbereid ben voor het gesprek met Dorien van vrijdag. 
+Harald was op kantoor dus die heb ik voor het eerst in het echt gezien en gelijk bij gekletst! <br>
+Robbert en ik hebben bij de indicatoren waar ik niet zo goed wist hoe ik het moest aanpakken (4.1.3 - 4.2.3 - 4.3.1 - 4.4.1). Hij heeft meegedacht en met een iets openere blik gekeken naar de indicatoren en geholpen met bedenken wat ik ervoor zou kunnen gebruiken. Ik kreeg als tip dat ik nog kan kijken naar de [axe devtools extentie](https://handbook.frameless.io/docs/handbook/product/a11y-audit/tools/) voor accessebility testen en naar de [status](https://documentatie-git-docs-kwaliteitsaanpak-nl-design-system.vercel.app/project/kwaliteitsaanpak/product-backlog/) van de backlog en evt [de template](https://github.com/orgs/nl-design-system/projects/108) kan gebruiken. 
+<br>
+Ook kreeg ik nog wat algemene feedback van Robbert -
+"Je bent nog iets te vaag in de stand-ups af en toe, je mag wat meer concreet vertellen wat je een het doen bent bijv. Ik ben nu functie x aan het maken met css ipv ik ga vandaag aan de css werken." 
+<br>
+Verder in de middag ben ik begonnen met het schrijven van een bewijslast stukje zodat ik die vrijdag met Dorien kan bespreken. En heb ik mijn lijstje van bewijslast nog naar Nadia (FDND) en Tessa (frameless) gestuurd en gevraafd om feedback. En heb ik Nadia ook feedback terug gegeven. 
+
