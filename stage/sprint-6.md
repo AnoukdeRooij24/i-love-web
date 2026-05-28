@@ -31,3 +31,7 @@ Ook kreeg ik nog wat algemene feedback van Robbert -
 <br>
 Verder in de middag ben ik begonnen met het schrijven van een bewijslast stukje zodat ik die vrijdag met Dorien kan bespreken. En heb ik mijn lijstje van bewijslast nog naar Nadia (FDND) en Tessa (frameless) gestuurd en gevraafd om feedback. En heb ik Nadia ook feedback terug gegeven. 
 
+## Donderdag 28-5-2026
+In de standup van vanochtend heb ik verteld dat ik vandaag een indicator helemaal ga uitwerken voor mn bewijslast zodat ik die met een docent kan bespreken. En dat ik verder wil met de scraper functie van de fonts maar dat ik daar een beetje op vast loop. Bart bood aan om even met mij mee te kijken als ik hulp nodig heb. <br>
+In de ochtend heb ik eerst de 4.1.1 indicator uitgewerkt en met nadia overlegt om te kijken of ze nog tips had. Na de lunch heb ik met Bart in een huddle gezeten van 1,5 uur om uit te zoeken hoe ik de font functie werkend kan krijgen. Ik had hem het probleem uitgelegd en ook meteen de oplossing waarvan ik dacht dat het zou zijn en daar was hij het inderdaad mee eens. We hebben samen gekeken naar de code van de font families waar ik al een groot deel mee bezig was en ik heb daarna de code voor de font sizes zelf gedaan met wat tips van Bart tussen door. 
+De rest van de middag heb ik issues gedocumenteerd en bijgewerkt. 
