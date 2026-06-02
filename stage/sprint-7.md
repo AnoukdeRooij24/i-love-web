@@ -5,3 +5,6 @@ Voor de standup hadden we een oefening om te checken of het systeem nog goed wer
 In de standup heb ik aangegeven dat ik mee doe met de retro over de samenwerking binnen frameless. En dat ik me in de middag ga bezig houden met mijn bewijslast, ik heb gezegd dat ik er ongeveer 4 per dag wil doen zodat ik iets eerder klaar ben en niet op het laatst aan het haasten ben. Robbert vond dat een goed idee, voor het geval we nog meer emergency oefeningen krijgen deze week. <br>
 Daarna hadden we de retrospect over het samenwerken binnen frameless. Deze pakte erg positief uit. Gelijk daarna hadden we een ISO9001 awareness training, over hoe we kwaliteit kunnen leveren en waarom dat belangrijk is. Het kwam er op neer dat we eigenlijk het meeste al deden maar dat dat nu officieel ook op papier staat. Een andere tip was nog om te kijken of al je vs-code extenties geveriviceerd zijn, en zo niet te kijken of het ook zonder die extentie kan. 
 Ik heb de feedback van 4.1.1 verwerkt en ik heb 4.2.1 & 4.2.3 gemaakt en in portflow gezet. 
+
+## Dinsdag 2-6-2026
+Ik ben vandaag de hele dag bezig geweest met portflow. Ik heb de accessibility test uitgevoerd en gedocumenteerd en deze ook meteen in portflow gezet. Ik heb 4.4.2, 4.1.3 gemaakt en in portflow gezet en ik heb 4.4.1 helemaal uitgewerkt en feedback gevraagd die ik morgen nog even ga verwerken. 
