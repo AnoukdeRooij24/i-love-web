@@ -8,3 +8,7 @@ Ik heb de feedback van 4.1.1 verwerkt en ik heb 4.2.1 & 4.2.3 gemaakt en in port
 
 ## Dinsdag 2-6-2026
 Ik ben vandaag de hele dag bezig geweest met portflow. Ik heb de accessibility test uitgevoerd en gedocumenteerd en deze ook meteen in portflow gezet. Ik heb 4.4.2, 4.1.3 gemaakt en in portflow gezet en ik heb 4.4.1 helemaal uitgewerkt en feedback gevraagd die ik morgen nog even ga verwerken. 
+
+## Woensdag
+Tijdens de standup waren Robbert en ik de enige. Ik heb aangegeven dat ik gister met portflow bezig ben geweest en dat ik een aantal tests heb uitgevoerd op de scraper pagina. Omdat we toch de tijd hadden heb ik ook verteld welke tests en hoe ik het had aangepakt. En ik heb verteld dat ik vandaag weer verder ga met portflow. 
+Ik heb 4.5.2 - 4.5.1 - 4.3.3 - 4.3.1 bewijslast indicatoren gemaakt. 
