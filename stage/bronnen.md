@@ -28,6 +28,8 @@
 - [colorjs.io](https://colorjs.io/)
 - [vite](https://vite.dev/guide/) docs
 - [Lit](https://lit.dev/docs/getting-started/) docs
+- [i18n](https://www.i18next.com/) internationalization i18next docs
+- [Definition of done](https://documentatie-git-docs-kwaliteitsaanpak-nl-design-system.vercel.app/project/kwaliteitsaanpak/definition-of-done/) NL Design System docs
 
 ## Bronnen
 - [WAI-ARIA](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Accessibility/WAI-ARIA_basics) mdn
