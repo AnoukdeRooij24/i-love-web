@@ -9,6 +9,12 @@ Ik heb de feedback van 4.1.1 verwerkt en ik heb 4.2.1 & 4.2.3 gemaakt en in port
 ## Dinsdag 2-6-2026
 Ik ben vandaag de hele dag bezig geweest met portflow. Ik heb de accessibility test uitgevoerd en gedocumenteerd en deze ook meteen in portflow gezet. Ik heb 4.4.2, 4.1.3 gemaakt en in portflow gezet en ik heb 4.4.1 helemaal uitgewerkt en feedback gevraagd die ik morgen nog even ga verwerken. 
 
-## Woensdag
+## Woensdag 3-6-2026
 Tijdens de standup waren Robbert en ik de enige. Ik heb aangegeven dat ik gister met portflow bezig ben geweest en dat ik een aantal tests heb uitgevoerd op de scraper pagina. Omdat we toch de tijd hadden heb ik ook verteld welke tests en hoe ik het had aangepakt. En ik heb verteld dat ik vandaag weer verder ga met portflow. 
 Ik heb 4.5.2 - 4.5.1 - 4.3.3 - 4.3.1 bewijslast indicatoren gemaakt. 
+
+## Donderdag 4-6-2026
+In de standup aangegeven dat ik vandaag verder ga met het maken van mijn bewijslast. Daar ben ik de rest van de dag ook mee bezig geweest. 
+
+## Vrijdag 5-6-2026
+In de standup verteld dat ik vandaag een terugkomdag heb op fdnd en nog de laatste paar indicatoren wil afmaken dit weekend. Bij de terugkom dag heb ik een begin gemaakt aan de poster voor de expo en hebben we algemene portflow vragen besproken. Daarna hadden we een afsluitende borrel bij FEST.
