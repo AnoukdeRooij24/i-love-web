@@ -18,3 +18,9 @@ In de standup aangegeven dat ik vandaag verder ga met het maken van mijn bewijsl
 
 ## Vrijdag 5-6-2026
 In de standup verteld dat ik vandaag een terugkomdag heb op fdnd en nog de laatste paar indicatoren wil afmaken dit weekend. Bij de terugkom dag heb ik een begin gemaakt aan de poster voor de expo en hebben we algemene portflow vragen besproken. Daarna hadden we een afsluitende borrel bij FEST.
+
+***
+
+## Maandag 8-6-2026
+In de standup aangegeven dat ik mijn bewijstlast heb ingeleverd, iedereen begon feest te vieren in de huddle. En dat ik voor vandaag nog even een plan moet maken wat ik ga doen. 
+Ik heb in de ochtend mijn notion bijgewerkt met bewijslasten en wat dingen in een lijstje gezet om te doen. In de middag ben ik begonnen met het live zetten van de website die ik heb gemaakt want die staat nu alleen nog lokaal. Ik had aan RObbert gevraagd hoe ze dat meestal doen, hij zei via vercel of github pages, waarvan github pages voor mij het makkelijkste zou werken. 
