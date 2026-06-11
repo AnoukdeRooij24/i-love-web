@@ -35,3 +35,12 @@
 - Pas op voor mega groote headings grote headings zijn vaak al groot genoeg om te kunnen lezen voor mensen die 200% inzoomen
 - mdn text scale 
 - met px werkt de text scaling niet 
+
+## Jelle Raaijmakers
+- de fases van de css zijn
+    - declared -> checken of de waarde bij de property matched
+    - cascaded -> de volgorde 
+    - Speficied -> checken of een property een waarde heeft en anders wordt de standaard value toegepast (inherrit / unset etc)
+    - computed -> resolve anithing that the broswer can / simplefy it
+    - used -> een schatting van de layout en berekenen hoeveel px er bijv voor een width % nodig zijn
+    - actual -> de echte layout
