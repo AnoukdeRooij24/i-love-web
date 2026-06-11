@@ -61,4 +61,13 @@
 - forced colors worden vaak gebruikt als more contrast kleuren terwijl dat vaak niet het geval is
 - colorscheme en contrast buttons kunnen met `:has()` gemaakt worden met css maar werkt per pagina
 - "javascript should only do what only javascript can do"
-- 
+
+## Bramus van Damme
+- Je moet alle onderdelen die je wilt animeren en op de twee pagina's een naam geven
+- `view-transition-name: name;` je geeft de zelfde naam mee aan de HTML elementen en je kan bijv van een h1 naar een h2 animeren
+- single page gebruik je de JS `document.startViewTransition()`
+- bij een multipage transition `@view-transition {navigation: auto}` in css op beide paginas en je hebt al een standaard view transition
+- met een video kan je de oude snapshot niet displayen, en de nieuwe altijd laten zien en de crossfade uitzetten
+- view transition tussen twee states op een pagina kan je het css grid veranderen en daarna de viewtransitions aanroepen en customizen 
+- je kan meerdere elementen in 1 view transition zetten
+- scroll view transition -> doe je met JS (voorbeeld code in de slides)
