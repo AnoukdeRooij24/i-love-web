@@ -44,3 +44,21 @@
     - computed -> resolve anithing that the broswer can / simplefy it
     - used -> een schatting van de layout en berekenen hoeveel px er bijv voor een width % nodig zijn
     - actual -> de echte layout
+
+## Lyra Rebane
+- met details elemenst en position absolute kan je games maken door de details open en dicht te klikken en de afbeeldingen/divs met position absolute te positioneren over elkaar 
+- css puzzel box 2.0
+
+## Sara Joy
+- `color-scheme: light dark;` in de `:root` van css 
+- Je kan de `color-scheme:` ook gebuiken in de head van HMTL in een `<meta>` tag
+- `background-color: light-dark(bla, bla);`
+- `color: contrast-color();` kan de tekst kleur op de background kleur aanpassen met een color mix
+- light-dark komt binnen kort ook met afbeeldingen en gradients
+- binnenkort kan je met een of in css de fontweight aanpassen aan de hand van dark of lightmode (foto presentatie)
+- het contrast kan ook te veel zijn voor mensen met migraine
+- `@media (prefers-contrast: more)` en `@media (prefers-contrast: less)` kan je gebruiken om de gebruiker te laten bepalen of ze veel of weinig contrast willen
+- forced colors worden vaak gebruikt als more contrast kleuren terwijl dat vaak niet het geval is
+- colorscheme en contrast buttons kunnen met `:has()` gemaakt worden met css maar werkt per pagina
+- "javascript should only do what only javascript can do"
+- 
