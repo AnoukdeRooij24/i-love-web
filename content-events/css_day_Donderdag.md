@@ -19,4 +19,19 @@
 - out of the gamut is the wild west!
 - Er is altijd een chroma waarde wat in de gamut is
 - als je in een linear gradient inplaats van 0 de waarde none gebruikt krijg je dezelfde kleur maar met minder grijs waarden en dan gebuik je color mix 
-- 
+
+## Josh Tumath
+- NEVER USE PX UNITS!
+- 37% veranderen hun text size op hun telefoon
+- `calc(16px * env(preferred-text-scale))`
+- de font size is bij default `medium`
+- Zorg dat je mobile first met de text scaled up desiged 
+- Verander de default font-size in de root niet naar een gefixte waarde
+- Zorg dat je rem gebruikt inplaats van px voor sizing your content / layout
+- gebuik alleen px voor spacing (`gap` / `padding` / `margin`)
+- gebuik alleen single colum layout op een kleine viewport (afbeelding en tekst onder elkaar)
+- Met container quearies heb je het scaling probleem sws al minder
+- laat de content altijd de hoogte van de layout bepalen dan overflowt het niet of zet een `min-heigt`
+- Pas op voor mega groote headings grote headings zijn vaak al groot genoeg om te kunnen lezen voor mensen die 200% inzoomen
+- mdn text scale 
+- met px werkt de text scaling niet 
