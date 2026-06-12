@@ -26,3 +26,9 @@
 - je kan er leuke animaties mee maken als inladen of op scroll
 - je kan twee grid lanes hebben, een die zich opvult van de onderkant en een van de bovenkant (of links / rechts)
 - je kan een kleine draai aan de items meegeven en een diary gevoel geven aan de pagina
+
+## Manuel Matuzovic
+- met allow-discrete kan je de animatie van een pop up animeren van niks naar zichtbaar 
+- fokus.dev -> stylesheet demo website
+- `math.pow()` voor het berekenen van de font scale op basis van een start waarde
+- oli.css -> website 
