@@ -32,3 +32,18 @@
 - fokus.dev -> stylesheet demo website
 - `math.pow()` voor het berekenen van de font scale op basis van een start waarde
 - oli.css -> website 
+
+## Una Kravets
+- respect the user preference
+- `@function` in css  
+- `contrast-color` kijkt of je zwarte of witte tekst kan krijgen op een achtergrondkleur
+- met light-dark en contrast color kan je personalised color themes maken 
+- reduce noise 
+- sticky headers die niet constant in beeld staan -> scrolled
+- een hint popover sluit niet als je een echt popover open hebt staan
+- implement natural interactions
+- provide guided navigations
+- gebruik een kleine blur in interacities
+- staggerd animations -> sibbling index
+- `scroll-target-group: auto;`
+- adapt to the form factor
