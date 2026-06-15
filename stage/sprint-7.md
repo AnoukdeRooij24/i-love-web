@@ -23,4 +23,16 @@ In de standup verteld dat ik vandaag een terugkomdag heb op fdnd en nog de laats
 
 ## Maandag 8-6-2026
 In de standup aangegeven dat ik mijn bewijstlast heb ingeleverd, iedereen begon feest te vieren in de huddle. En dat ik voor vandaag nog even een plan moet maken wat ik ga doen. 
-Ik heb in de ochtend mijn notion bijgewerkt met bewijslasten en wat dingen in een lijstje gezet om te doen. In de middag ben ik begonnen met het live zetten van de website die ik heb gemaakt want die staat nu alleen nog lokaal. Ik had aan RObbert gevraagd hoe ze dat meestal doen, hij zei via vercel of github pages, waarvan github pages voor mij het makkelijkste zou werken. 
+Ik heb in de ochtend mijn notion bijgewerkt met bewijslasten en wat dingen in een lijstje gezet om te doen. In de middag ben ik begonnen met het live zetten van de website die ik heb gemaakt want die staat nu alleen nog lokaal. Ik had aan Robbert gevraagd hoe ze dat meestal doen, hij zei via vercel of github pages, waarvan github pages voor mij het makkelijkste zou werken. Ik ben begonnen met uitzoeken hoe ik dat het beste kon doen.
+
+## Dinsdag 9-6-2026
+In de standup aangegeven dat ik vandaag verder ga met het live zetten van de pagina's die ik heb gemaakt. Ik heb de pagina met de design tokens live gekregen en de css ervan ook, maar de pagina met de scraper was nog niet gelukt.
+
+## Woensdag 10-6-2026
+Vandaag ben ik naar de [The web you want](../content-events/the_web_you_want_dag_2.md) conferentie geweest.
+
+## Donderdag 11-6-2026
+Vandaag ben ik naar CSS Day [dag 1](../content-events/css_day_Donderdag.md)geweest. 
+
+## Donderdag 11-6-2026
+Vandaag ben ik naar CSS Day [dag 2](../content-events/css_day_Vrijdag.md)geweest. 
